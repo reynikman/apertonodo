@@ -1,0 +1,17 @@
+{
+  "name": "login_no_client_header",
+  "note": "без заголовка Authorization с именем клиента",
+  "verb": "POST",
+  "path": "/Users/AuthenticateByName",
+  "query": {},
+  "request_headers": {
+    "Content-Type": "application/json"
+  },
+  "request_body": {
+    "Username": "tester",
+    "Pw": "<password>"
+  },
+  "status": 400,
+  "content_type": "text/plain",
+  "text": "Error processing request."
+}

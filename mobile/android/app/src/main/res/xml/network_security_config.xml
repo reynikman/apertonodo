@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Android cannot express address ranges: cleartext http is allowed here as a whole,
+         and serverOrigin() in lib/auth/login.dart is the guard. -->
+    <base-config cleartextTrafficPermitted="true"/>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">127.0.0.1</domain>
+    </domain-config>
+</network-security-config>

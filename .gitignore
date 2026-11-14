@@ -1,0 +1,43 @@
+.DS_Store
+.idea/
+.vscode/
+*.pyc
+__pycache__/
+.venv/
+server/.venv/
+extensions/*/.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/build/
+# Snapshot-mismatch images (golden tests): what was drawn, the reference, and the difference.
+mobile/test/failures/
+mobile/.idea/
+*.iml
+android/key.properties
+*.jks
+.env
+.pgdata/
+.pg-run/
+.unlazy-hook-state.json
+.unlazy-marker
+unlazy-evidence/
+node_modules/
+.tools/
+.check-logs/
+.unlazy-mutation-backup.json
+
+# pytest junit report, needed only inside a run
+server/report.xml
+# static-analysis reports, needed only inside a run
+ruff-report.txt
+mypy-report.txt
+mobile/android/build/
+.serena/
+gitleaks-report.json
+.planning/catalog-500/
+.planning/catalog-500/raw/

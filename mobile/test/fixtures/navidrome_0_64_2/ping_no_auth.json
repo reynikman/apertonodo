@@ -1,0 +1,26 @@
+{
+  "name": "ping_no_auth",
+  "note": "",
+  "method": "ping.view",
+  "query": {
+    "v": "1.16.1",
+    "c": "apertono",
+    "f": "json"
+  },
+  "request_headers": {},
+  "status": 200,
+  "content_type": "application/json",
+  "json": {
+    "subsonic-response": {
+      "status": "failed",
+      "version": "1.16.1",
+      "type": "navidrome",
+      "serverVersion": "0.64.2 (10114574)",
+      "openSubsonic": true,
+      "error": {
+        "code": 10,
+        "message": "missing parameter: 'u'"
+      }
+    }
+  }
+}

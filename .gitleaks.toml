@@ -1,0 +1,31 @@
+# Gitleaks for Apertonodo.
+
+title = "Apertonodo Gitleaks Config"
+
+# Required. Passing --config REPLACES the built-in rule set instead of
+# extending it: a config without [[rules]] and without this block loads zero rules
+# and is bound to find zero secrets in any history. In another project such a
+# config kept the job green until a canary caught it.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Образцы и документация — там только плейсхолдеры"
+paths = [
+  '''\.env\.example''',
+  '''\.gitleaks\.toml''',
+]
+
+[[allowlists]]
+description = "Хеши и ссылки источников в фикстурах — не credentials"
+paths = [
+  '''contracts/fixtures/''',
+  '''server/tests/''',
+]
+
+[[allowlists]]
+description = "Записи ответов Jellyfin и их тест — выдуманные идентификаторы, не ключи (FT-649); в публичном срезе нет .gitleaksignore"
+paths = [
+  '''mobile/test/fixtures/jellyfin_12_2/''',
+  '''mobile/test/jellyfin_client_test\.dart''',
+]

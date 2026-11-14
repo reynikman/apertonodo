@@ -1,0 +1,19 @@
+{
+  "name": "image_album",
+  "note": "альбом без обложки",
+  "verb": "GET",
+  "path": "/Items/9f7ba097b00e0aed7d08b35077047b7d/Images/Primary",
+  "query": {
+    "maxWidth": "300"
+  },
+  "request_headers": {},
+  "request_body": null,
+  "status": 200,
+  "content_type": "image/jpeg",
+  "bytes": 829,
+  "sha256": "75eb2515ce647d599cebf52accdc693b895521c6ed283174c3c87ef05f15fac8",
+  "headers": {
+    "content-length": "829",
+    "cache-control": "public"
+  }
+}

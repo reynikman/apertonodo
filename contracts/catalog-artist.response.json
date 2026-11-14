@@ -1,0 +1,27 @@
+{
+  "artist": {
+    "id": "064db6e8-fdfb-4acb-a327-fc2de75b37de",
+    "name": "Кино",
+    "photo": "/v1/photos/064db6e8-fdfb-4acb-a327-fc2de75b37de",
+    "photo_credit": "Kreepin Deth, CC BY-SA 4.0",
+    "aliases": [
+      {
+        "name": "Kino",
+        "locale": "en"
+      }
+    ]
+  },
+  "albums": [
+    {
+      "id": "7ff1eff0-a8c8-37dc-807e-eea5a9e173b5",
+      "title": "Группа крови",
+      "year": 1988,
+      "date": "1988",
+      "kind": "album",
+      "editions": [],
+      "disc": "Vinyl",
+      "playable": true,
+      "cover": "/v1/covers/7ff1eff0-a8c8-37dc-807e-eea5a9e173b5"
+    }
+  ]
+}

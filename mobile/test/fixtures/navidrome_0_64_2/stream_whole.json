@@ -1,0 +1,24 @@
+{
+  "name": "stream_whole",
+  "note": "",
+  "method": "stream.view",
+  "query": {
+    "u": "tester",
+    "t": "<token>",
+    "s": "<salt>",
+    "v": "1.16.1",
+    "c": "apertono",
+    "f": "json",
+    "id": "2llbCRtEv5j7BosspiA3xR"
+  },
+  "request_headers": {},
+  "status": 200,
+  "content_type": "audio/mpeg",
+  "bytes": 97106,
+  "sha256": "e3aeee5a1b27553745f21e592be43f3b420a42858c80fe9917559f462feeb8a1",
+  "headers": {
+    "accept-ranges": "bytes",
+    "content-length": "97106",
+    "x-content-duration": "6.03"
+  }
+}

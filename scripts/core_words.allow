@@ -1,0 +1,52 @@
+# path  # reason (neutral: no source words here)
+# FT-905 (R-A88): tests, the biography filter and two internal contracts only. Everything else was renamed.
+contracts/index-api.md  # internal contract between two extensions, outside the public slice
+contracts/acceptance/recovery.json  # archived acceptance contract, outside the public slice
+server/app/lastfm.py  # biography filter, the words are its pattern
+server/tests/fixtures/lastfm/metallica-getinfo-ru.json  # real Last.fm response read as is by the filter test
+server/tests/test_lastfm.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_core_words.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_ft596_cleanup.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_p8_move.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_wire9_review.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_store.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_extension_asset.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_book_asset_names.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_book_api.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_catalog_browse.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_contract.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_extension_contract.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_extension_play.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_library.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_playback.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_search.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_stream.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_session_resume.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_wire12_review.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_problems.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_ratings.py  # server test: asserts the words are absent, or builds the old schema
+mobile/test/privacy_ui_test.dart  # app test: asserts the words are absent from UI and JSON
+mobile/test/audio_info_test.dart  # app test: asserts the words are absent from UI and JSON
+mobile/test/contract_test.dart  # app test: asserts the words are absent from UI and JSON
+mobile/test/http_catalog_test.dart  # app test: asserts the words are absent from UI and JSON
+mobile/test/player_play_test.dart  # app test: asserts the words are absent from UI and JSON
+mobile/test/quality_prefs_test.dart  # app test: asserts the words are absent from UI and JSON
+mobile/test/wire_format_badge_test.dart  # app test: asserts the words are absent from UI and JSON
+mobile/integration_test/background_audio_test.dart  # phone scenario: asserts the words are absent from the screen
+mobile/integration_test/menu_browse_test.dart  # phone scenario: asserts the words are absent from the screen
+mobile/integration_test/offline_test.dart  # phone scenario: asserts the words are absent from the screen
+mobile/integration_test/play_sound_test.dart  # phone scenario: asserts the words are absent from the screen
+mobile/integration_test/ttfa_test.dart  # phone scenario: asserts the words are absent from the screen
+server/tests/test_compose_extensions.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_compose_books.py  # server test: asserts the words are absent, or builds the old schema
+mobile/integration_test/network_return_test.dart  # phone scenario: asserts the words are absent from the screen
+server/tests/test_prepare_wait.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_track_by_mbid.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_extension_wiring.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_rutracker_copy.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/fixtures/migrations_before_ft905/*  # frozen pre-FT-905 migrations, the old-database test applies them
+server/tests/test_migrations.py  # server test: builds the old schema and checks a fresh one has no such names
+server/tests/test_translation_guard.py  # server test: asserts the words are absent, or builds the old schema
+server/tests/test_wire_p8_core.py  # server test: asserts the words are absent, or builds the old schema
+mobile/tool/negative_control.dart  # test tool: plants a forbidden UI word to prove the UI test catches it
+server/tests/test_extension_script.py  # server test: names the extensions it adds, including source ones

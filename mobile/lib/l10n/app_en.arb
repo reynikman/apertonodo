@@ -1,0 +1,923 @@
+{
+  "@@locale": "en",
+  "updateTitle": "Update available",
+  "updateVersion": "Version {version}",
+  "@updateVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "updateInstall": "Update",
+  "updateSkip": "Skip this version",
+  "updateDownloading": "Downloading… {percent}%",
+  "@updateDownloading": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "updateFailed": "Could not update. Try again.",
+  "updateCheck": "Check for updates",
+  "updateLatest": "You have the latest version",
+  "loginTitle": "Connect to Apertono",
+  "ratingStar": "{n} of 5",
+  "@ratingStar": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "ratingDislike": "Dislike",
+  "ratingFailed": "Couldn't save the rating",
+  "playerRate": "Rate",
+  "playerLyrics": "Lyrics",
+  "playerHeartHint": "Hold the heart to rate the song or mark it as disliked",
+  "libraryRated": "Rated",
+  "ratedFrom": "{n} and up",
+  "@ratedFrom": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "ratedEmpty": "No rated songs yet",
+  "dislikedEmpty": "No disliked songs",
+  "ratedFailed": "Couldn't load the list",
+  "ratedRetry": "Try again",
+  "loginSessionExpired": "Session expired. Sign in again.",
+  "loginServerAddress": "Server address",
+  "loginAddressInvalid": "Use HTTPS or a home-network HTTP address.",
+  "loginAddressUnsupported": "This server is not supported",
+  "loginAddressUnreachable": "Cannot reach the server at this address",
+  "loginAddressExample": "e.g. 192.168.1.20:8088",
+  "loginConnectVia": "Will connect to {address}",
+  "@loginConnectVia": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "loginChangeServer": "Another server",
+  "loginNext": "Next",
+  "historyPauseTitle": "Don’t record history",
+  "historyPauseHint": "For an hour, till tomorrow or indefinitely",
+  "historyPauseForHour": "For an hour",
+  "historyPauseTillTomorrow": "Till tomorrow",
+  "historyPauseForever": "Until I turn it back on",
+  "historyPauseForeverOn": "Until you turn it back on",
+  "historyPauseUntil": "Until {time}",
+  "@historyPauseUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "historyClear": "Clear history",
+  "historyClearQuestion": "Erase all listening history? This can’t be undone",
+  "historyClearConfirm": "Erase",
+  "historyClearCancel": "Cancel",
+  "historyError": "That didn’t work. Check your connection and try again",
+  "historyRemoved": "Removed from history",
+  "historyRemove": "Remove from history",
+  "historyUndo": "Undo",
+  "historyRemoveFailed": "Couldn’t remove from history",
+  "loginUsername": "Username",
+  "loginPassword": "Password",
+  "prefetchTitle": "Preload the next song",
+  "prefetchAlways": "Always",
+  "prefetchWifiOnly": "Wi-Fi only",
+  "prefetchNever": "Never",
+  "prefetchNeverHint": "A short pause between songs; saves mobile data",
+  "qualityTitle": "Sound quality",
+  "qualityAuto": "Auto",
+  "qualityAutoHint": "Original on Wi-Fi, data saver on mobile data",
+  "qualityEconomy": "Always data saver",
+  "qualityEconomyHint": "Less data on any network",
+  "qualityLossless": "Lossless only",
+  "qualityLosslessHint": "FLAC when available. Otherwise plays what there is",
+  "loudnessTitle": "Even loudness",
+  "loudnessHint": "Quieter loud tracks",
+  "formatBadgeSpoken": "Format: {format}",
+  "@formatBadgeSpoken": {
+    "placeholders": {
+      "format": {
+        "type": "String"
+      }
+    }
+  },
+  "loginSignIn": "Sign in",
+  "loginErrorTimeout": "Server timed out",
+  "scrobbleWhy": "This is optional. ListenBrainz and Last.fm are free sites that keep your listening statistics: what you played and how much. The history stays yours even if you change players. Connect your profile and the app will send the songs you play there.",
+  "scrobbleWhyLbOnly": "This is optional. ListenBrainz is a free site that keeps your listening statistics: what you played and how much. The history stays yours even if you change players. Connect your profile and the app will send the songs you play there.",
+  "scrobbleStateOff": "Not connected",
+  "scrobbleStateOn": "Connected",
+  "scrobbleStateBadToken": "The service rejected the key. Connect again.",
+  "scrobbleStatePending": "Waiting for your approval",
+  "scrobbleTokenLabel": "ListenBrainz token",
+  "scrobbleLbWhere": "Where to get the token",
+  "scrobbleConnect": "Connect",
+  "scrobbleDisconnect": "Disconnect",
+  "scrobbleLastfmAllow": "Allow in Last.fm",
+  "scrobbleLastfmCheck": "Check approval",
+  "scrobbleLastfmCancel": "Cancel",
+  "scrobbleLoadFailed": "Failed to load settings",
+  "scrobbleRetry": "Retry",
+  "scrobbleErrorTokenShape": "This does not look like a token: 8 to 200 characters, no spaces",
+  "scrobbleErrorSave": "Could not save. Try again.",
+  "scrobbleErrorLastfmStart": "Last.fm did not answer. Try later.",
+  "scrobbleErrorLastfmNotYet": "Not approved yet. Approve on the Last.fm page and check again.",
+  "scrobbleErrorLastfmExpired": "The approval timed out. Start again.",
+  "scrobbleHint": "Listens go only to connected services. While “Do not record” is on, nothing is sent.",
+  "loginErrorUnauthorized": "Incorrect username or password",
+  "loginErrorBadCertificate": "Invalid server certificate",
+  "loginErrorNetwork": "Cannot connect to server",
+  "searchFailureNoAccess": "No access: the build key does not match the server",
+  "searchFailureCatalogDown": "The catalog is not responding — try again in a minute",
+  "searchFailureTooMany": "Too many requests — wait and try again",
+  "searchFailureNoAnswer": "The server did not respond — check your connection",
+  "searchRecent": "Recent searches",
+  "searchClear": "Clear",
+  "searchHeard": "Recently played",
+  "searchArtistLabel": "Artist",
+  "searchTracks": "Tracks",
+  "searchTitle": "Search",
+  "searchHint": "Artist or song",
+  "searchEmpty": "Nothing found",
+  "catalogKindLive": "live",
+  "catalogKindCompilation": "compilation",
+  "catalogKindSingle": "single",
+  "catalogKindAlbum": "album",
+  "catalogArtistOne": "artist",
+  "catalogArtistFew": "artists",
+  "catalogArtistMany": "artists",
+  "catalogNoGenres": "No genres yet",
+  "catalogBrowseTitle": "Browse",
+  "catalogAllGenres": "All genres",
+  "catalogNoArtists": "No artists",
+  "catalogArtistNotFound": "Artist not in the catalog",
+  "catalogAlbums": "Albums",
+  "catalogEpAndSingles": "EPs and singles",
+  "catalogLiveAndCompilations": "Live and compilations",
+  "catalogListen": "Listen",
+  "catalogPopular": "Popular",
+  "catalogAllPopular": "All popular",
+  "catalogAllAlbums": "All albums",
+  "catalogNoAlbums": "No albums in the catalog",
+  "catalogSimilarArtists": "Similar artists",
+  "catalogAboutArtist": "About the artist",
+  "catalogFollowing": "Following",
+  "catalogFollow": "Follow",
+  "catalogPhotoCredit": "photo: {credit}",
+  "@catalogPhotoCredit": {
+    "placeholders": {
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogCollapse": "Collapse",
+  "catalogExpand": "Expand",
+  "catalogAlbumNotFound": "Album not found",
+  "catalogPlayAlbum": "Play album",
+  "catalogOtherEditions": "Other editions",
+  "catalogArtistNotFoundSongs": "Artist not found",
+  "homeTitle": "Home",
+  "homeFavorites": "Favorite songs",
+  "homeEmpty": "Nothing yet",
+  "homeTrackOne": "track",
+  "homeTrackFew": "tracks",
+  "homeTrackMany": "tracks",
+  "homePlaylists": "Playlists",
+  "homePlaylistOne": "playlist",
+  "homePlaylistFew": "playlists",
+  "homePlaylistMany": "playlists",
+  "partsNotFound": "Not found",
+  "partsServerUnavailable": "Server unavailable",
+  "partsTooMany": "Too many requests — wait and try again",
+  "partsNoAnswer": "The server did not respond",
+  "partsNoAccess": "No access: the build key does not match the server",
+  "partsConflict": "The playlist changed — showing the current one",
+  "partsDownloads": "Downloads",
+  "partsRetry": "Retry",
+  "partsReportSend": "Send report",
+  "partsReportSent": "Report sent",
+  "partsReportOff": "Reports are disabled on the server",
+  "partsReportFailed": "Could not send",
+  "partsPause": "Pause",
+  "partsStopLoading": "Stop loading",
+  "partsPlay": "Play",
+  "partsTrackMissing": "{artist} · not found",
+  "@partsTrackMissing": {
+    "placeholders": {
+      "artist": {
+        "type": "String"
+      }
+    }
+  },
+  "partsMore": "More",
+  "partsPlayNext": "Play next",
+  "partsWillPlayNext": "Plays next",
+  "partsQueueEnd": "Add to queue",
+  "partsOpenArtist": "Go to artist",
+  "partsOpenAlbum": "Go to album",
+  "partsDownload": "Download",
+  "partsDeleteFromPhone": "Delete from phone",
+  "partsAddToPlaylist": "Add to playlist",
+  "partsRemoveFromPlaylist": "Remove from playlist",
+  "partsRemoveFromFavorites": "Remove from favorites",
+  "partsAddToFavorites": "Add to favorites",
+  "partsPlaylistGone": "The playlist is gone",
+  "partsAlbumGone": "Album not found",
+  "partsName": "Name",
+  "partsCancel": "Cancel",
+  "partsDuplicatesTitle": "{count, plural, one{{count} song is already in the playlist} other{{count} songs are already in the playlist}}",
+  "@partsDuplicatesTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "partsDuplicatesAddAll": "Add all",
+  "partsDuplicatesOnlyNew": "Only new",
+  "partsSave": "Save",
+  "partsNewPlaylist": "New playlist",
+  "partsAddedToPlaylist": "Added to “{name}”",
+  "@partsAddedToPlaylist": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "partsSongsGone": "The song or playlist is gone",
+  "playerUnlike": "Remove from Favorites",
+  "playerLike": "Add to Favorites",
+  "playerNoTrack": "No track",
+  "playerCollapse": "Collapse",
+  "playerMore": "More",
+  "playerMenuSong": "Song",
+  "playerMenuGo": "Go to",
+  "playerMenuHelp": "Help",
+  "playerMenuSound": "Sound",
+  "playerLosslessOnce": "Play this song lossless",
+  "playerLosslessMissed": "No lossless copy of this song was found",
+  "playerUndislike": "Remove “Dislike”",
+  "playerToPodcast": "Go to podcast",
+  "playerAddToPlaylist": "Add to playlist",
+  "playerAddedToDownloads": "Added to Downloads",
+  "playerDownload": "Download",
+  "playerShuffle": "Shuffle",
+  "playerPrevious": "Previous",
+  "playerNext": "Next",
+  "playerRepeatOff": "Repeat off",
+  "playerRepeatAll": "Repeat all",
+  "playerRepeatOne": "Repeat one",
+  "playerQueue": "Queue",
+  "playerWaitSeconds": " · {seconds}s",
+  "@playerWaitSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "miniSearchingSource": "Looking for source",
+  "miniPreparingAudio": "Preparing audio",
+  "miniNoSource": "Source not found — retry",
+  "miniUnknownTrack": "Track not found on server — search again",
+  "miniNoAccess": "Access denied — check build key",
+  "miniNoAnswer": "Server timed out — retry",
+  "miniDropped": "Connection lost — retry",
+  "miniFailed": "Playback failed — retry",
+  "miniWaitSeconds": " · {seconds}s",
+  "@miniWaitSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryTitle": "Library",
+  "libraryFavorites": "Favorite songs",
+  "libraryTracksCount": "{count, plural, one{{count} track} other{{count} tracks}}",
+  "@libraryTracksCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryMediaSection": "Library",
+  "libraryRatingsSection": "My ratings",
+  "libraryHistorySubtitle": "Recent",
+  "libraryDownloadsSubtitle": "Offline",
+  "libraryHistory": "History",
+  "libraryPlaylists": "Playlists",
+  "libraryPlaylistsCount": "{count, plural, one{{count} playlist} other{{count} playlists}}",
+  "@libraryPlaylistsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryDownloads": "Downloads",
+  "libraryDevice": "Device music",
+  "libraryDeviceSubtitle": "From storage",
+  "libraryDeviceTile": "On this phone",
+  "libraryImport": "Import",
+  "libraryImportSubtitle": "Spotify, Apple Music, M3U, text",
+  "libraryFavoritesEmpty": "No Favorites yet",
+  "libraryHistoryEmpty": "History is empty",
+  "libraryNewPlaylist": "New playlist",
+  "libraryPlaylistNotFound": "Playlist no longer exists",
+  "libraryRename": "Rename",
+  "libraryDeletePlaylistConfirm": "Delete \"{name}\"?",
+  "@libraryDeletePlaylistConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryDeletePlaylistMessage": "Songs will remain in the catalog and favorites.",
+  "libraryCancel": "Cancel",
+  "libraryDelete": "Delete",
+  "libraryDeletePlaylist": "Delete playlist",
+  "libraryPlaylistEmpty": "Empty. Add songs from search or albums",
+  "libraryPlayPlaylist": "Play playlist",
+  "memoryGigabytes": "{gb} GB",
+  "@memoryGigabytes": {
+    "placeholders": {
+      "gb": {
+        "type": "String"
+      }
+    }
+  },
+  "memoryDeleteAllTitle": "Delete all downloads?",
+  "memoryDeleteAllMessage": "All downloaded songs will be deleted from your phone.",
+  "memoryCancel": "Cancel",
+  "memoryDelete": "Delete",
+  "memoryTitle": "Storage",
+  "memoryLegendDownloaded": "Downloaded · {size}",
+  "@memoryLegendDownloaded": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "memoryLegendReserve": "Played cache · {size}",
+  "@memoryLegendReserve": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "memoryLegendFree": "Free · {size}",
+  "@memoryLegendFree": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "memoryReserveTitle": "Cache of played songs",
+  "memoryReserveOff": "Off",
+  "memoryClearReserve": "Clear cache",
+  "memoryDeleteAll": "Delete all downloads",
+  "navHome": "Home",
+  "navBrowse": "Browse",
+  "navNews": "News",
+  "navSearch": "Search",
+  "navLibrary": "Library",
+  "newsTitle": "News",
+  "newsConsentDescription": "News comes from this server and its sources. To build the feed, the server connects to the internet directly. Your phone does not connect outside.",
+  "newsConsentGotIt": "Got it",
+  "newsUnavailable": "News unavailable",
+  "newsServerDisabled": "News: disabled on this server",
+  "newsReadFull": "Read in full",
+  "newsSource": "Source",
+  "newsPlay": "Listen",
+  "newsEmpty": "No news yet",
+  "newsSuggestionsTitle": "You often listen to",
+  "newsFollowAll": "Follow all",
+  "newsChannels": "Channels",
+  "channelsTitle": "Channels",
+  "channelsUnavailable": "Channels unavailable",
+  "channelsAddErrorNotPublic": "This is a private network address — the channel cannot be added",
+  "channelsAddErrorTooMany": "Channel limit reached",
+  "channelsAddErrorNotFeed": "No news feed found at this link",
+  "channelsAddErrorFailed": "The server did not answer",
+  "channelsCuratedHeading": "Curated channels",
+  "channelsOwnHeading": "Your channels",
+  "channelsOwnEmpty": "Nothing yet",
+  "channelsAddHeading": "Add by link",
+  "channelsAddLinkHint": "Link: @channel, t.me/… or a site",
+  "channelsAddButton": "Add",
+  "channelsPopularHeading": "Popular on this server",
+  "channelsPopularEmpty": "Channels added by at least three people will show up here",
+  "channelsPopularAdded": "{count, plural, one{{count} person added it} other{{count} people added it}}",
+  "@channelsPopularAdded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "downloadsTitle": "Downloads",
+  "downloadsProgress": "Downloaded {done} of {total}",
+  "@downloadsProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "downloadsFree": "{size} GB free",
+  "@downloadsFree": {
+    "placeholders": {
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "downloadsHoldMetered": "Paused: downloading over mobile data is off",
+  "downloadsHoldNoRoom": "Paused: not enough free space on the phone",
+  "downloadsAllowMobile": "Download over mobile data",
+  "downloadsMemoryOf": "Storage · {used} of {total}",
+  "@downloadsMemoryOf": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadsMemory": "Storage · {used}",
+  "@downloadsMemory": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadsEpisodes": "Podcast episodes",
+  "downloadsEmpty": "No downloads yet",
+  "downloadsSizeMb": "{size} MB",
+  "@downloadsSizeMb": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadsRemove": "Delete",
+  "downloadsDownloadAll": "Download all",
+  "downloadsDownloading": "Downloading {done} of {total}",
+  "@downloadsDownloading": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "downloadsOnPhone": "On the phone",
+  "downloadsOnPhoneDetail": "On the phone: {songs} · {size} MB",
+  "@downloadsOnPhoneDetail": {
+    "placeholders": {
+      "songs": {
+        "type": "String"
+      },
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "downloadsSongs": "{count, plural, one {{count} song} other {{count} songs}}",
+  "@downloadsSongs": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "downloadsRemoveFromPhone": "Remove from phone",
+  "downloadsNotificationProgress": "Downloading {numFinished} of {numTotal}",
+  "@downloadsNotificationProgress": {
+    "placeholders": {
+      "numFinished": {
+        "type": "String"
+      },
+      "numTotal": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadsNotificationComplete": "Download complete",
+  "storageTitle": "Space for music",
+  "storageDescription": "Songs you play stay on the phone, so replays don't use data. 0 keeps nothing; change the size later in Downloads.",
+  "storageNoRoom": "Almost no free space — keeping played songs is off.",
+  "storageValue": "{count} GB",
+  "@storageValue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "storageNext": "Next",
+  "storageHintFits": "≈ {flac} songs in FLAC / {opus} in Opus",
+  "@storageHintFits": {
+    "placeholders": {
+      "flac": {
+        "type": "int"
+      },
+      "opus": {
+        "type": "int"
+      }
+    }
+  },
+  "storageHintNothing": "Not enough room for a single song",
+  "importFileTooLarge": "File is larger than 10 MiB. Choose a smaller file.",
+  "importChooseTrack": "Choose a song",
+  "importNone": "None",
+  "importCancel": "Cancel",
+  "importDescription": "Transfer your music: Spotify — CSV or ZIP from Exportify; Apple Music — library XML; M3U/M3U8 or \"artist — song\" lines. Yandex — via TuneMyMusic in CSV.",
+  "importPickFile": "Choose file",
+  "importPasteText": "Paste text",
+  "importTextHint": "Artist — song, one per line",
+  "importSend": "Send",
+  "importSaveAll": "Save all",
+  "importListFound": "{found} of {total} found",
+  "@importListFound": {
+    "placeholders": {
+      "found": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "importSaved": "Saved",
+  "importNotFound": "Not found",
+  "importSelected": "Selected",
+  "importDoubtful": "Doubtful",
+  "importFound": "Found",
+  "importSummary": "{found} of {total} found · {doubtful} doubtful · {missing} missing",
+  "@importSummary": {
+    "placeholders": {
+      "found": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "doubtful": {
+        "type": "int"
+      },
+      "missing": {
+        "type": "int"
+      }
+    }
+  },
+  "importToFavorites": "Add to Favorites",
+  "importSave": "Save",
+  "importDoubtfulHint": "Checking doubtful songs is optional. Missing songs stay dimmed in the playlist; only found ones go to Favorites.",
+  "importTitle": "Import",
+  "accountTitle": "Account",
+  "accountAutoReports": "Send reports automatically",
+  "accountNews": "News",
+  "accountScrobble": "ListenBrainz and Last.fm",
+  "accountLogout": "Log out",
+  "accountSwitchServer": "Switch server",
+  "accountLogoutConfirm": "Log out?",
+  "accountSwitchServerConfirm": "Switch server?",
+  "accountAutoReportsConfirm": "Send reports automatically?",
+  "accountAutoReportsDescription": "When the app crashes, it will send a short report to your server automatically: what broke, on which screen and where in the code. No song titles, search queries or phone address.",
+  "accountCancel": "Cancel",
+  "accountSendReports": "Send",
+  "accountLeaveWarning": "You will need to enter your password again to come back.",
+  "appPlayNext": "Playing next",
+  "appEnqueued": "Added to queue",
+  "appPlaybackChannel": "Playback",
+  "sleepTimerTitle": "Sleep timer",
+  "sleepTimer15Min": "15 min",
+  "sleepTimer30Min": "30 min",
+  "sleepTimer45Min": "45 min",
+  "sleepTimer60Min": "1 hour",
+  "sleepTimerEndOfSong": "End of song",
+  "sleepTimerMinLeft": "{n, plural, one{{n} min left} other{{n} min left}}",
+  "@sleepTimerMinLeft": {
+    "description": "Remaining sleep timer duration in minutes",
+    "placeholders": {
+      "n": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "sleepTimerTurnOff": "Turn off",
+  "equalizerTitle": "Equalizer",
+  "equalizerFlat": "Flat",
+  "equalizerBass": "Bass",
+  "equalizerTreble": "Treble",
+  "equalizerVocal": "Vocal",
+  "equalizerWaiting": "The equalizer will set up with the first song",
+  "equalizerMissing": "This phone has no equalizer",
+  "equalizerHz": "{value} Hz",
+  "@equalizerHz": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "equalizerKhz": "{value} kHz",
+  "@equalizerKhz": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "lyricsNone": "No lyrics for this song yet",
+  "aboutTitle": "About the app",
+  "aboutCredits": "Thank you to the projects this app is built on:\n\n• Lyrics — LRCLIB\n• Music catalog — MusicBrainz\n• Album covers — Cover Art Archive\n• Artist photos — Wikimedia Commons, with the author and licence under each photo",
+  "aboutLicenses": "Licences",
+  "aboutClose": "Close",
+  "lyricsCredit": "Lyrics: LRCLIB",
+  "lyricsInstrumental": "Instrumental",
+  "problemTitle": "Report a problem",
+  "problemReasonWrongTrack": "Wrong song plays",
+  "problemReasonNoPlay": "Doesn't play",
+  "problemReasonBadSound": "Bad sound",
+  "problemReasonCover": "Wrong or missing cover",
+  "problemReasonWrongName": "Wrong title or name",
+  "problemReasonOther": "Other",
+  "problemTextHint": "A few words, if you like",
+  "problemSend": "Send",
+  "problemSent": "Thanks, report sent",
+  "problemTooMany": "Too many reports. Try again in an hour.",
+  "problemFailed": "Could not send. Try again.",
+  "deviceTabSongs": "Songs",
+  "deviceTabAlbums": "Albums",
+  "deviceTabArtists": "Artists",
+  "deviceTabFolders": "Folders",
+  "deviceNoAccess": "To show the music on this phone, the app needs permission.",
+  "deviceAllow": "Allow",
+  "deviceDeniedForever": "Access to music is denied. You can allow it in the phone settings.",
+  "deviceOpenSettings": "Open settings",
+  "deviceEmpty": "No music found on this phone",
+  "deviceFailed": "Could not read the music on this phone",
+  "deviceRefresh": "Refresh",
+  "deviceRefreshFailed": "Could not refresh the list",
+  "deviceUntitled": "Untitled",
+  "deviceBack": "Back to the list",
+  "deviceTabEmpty": "Nothing here yet",
+  "deviceSongCount": "{count, plural, one{{count} song} other{{count} songs}}",
+  "@deviceSongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "podcastsTitle": "Podcasts",
+  "browseBooks": "Audiobooks",
+  "browseNotSetUp": "Not set up on the server",
+  "audiobooksTitle": "Audiobooks",
+  "podcastsSearchHint": "Find a podcast",
+  "podcastsLanguages": "Languages",
+  "podcastsContinue": "Continue",
+  "podcastsNewEpisodes": "New episodes",
+  "podcastsSubscriptions": "Subscriptions",
+  "podcastsPopular": "Popular",
+  "podcastsCategories": "Categories",
+  "podcastsSubscribe": "Subscribe",
+  "podcastsSubscribed": "Subscribed",
+  "podcastsSubscribeFailed": "Couldn't subscribe. Try again.",
+  "podcastsSearchFailed": "Search failed. Check the connection.",
+  "podcastsNothingFound": "Nothing found",
+  "podcastsSearchAllLanguages": "Search in all languages",
+  "podcastsLoadFailed": "Couldn't load podcasts",
+  "podcastsRetry": "Try again",
+  "podcastsEmpty": "Nothing here yet",
+  "podcastsAllLanguages": "All languages",
+  "podcastAbout": "About",
+  "podcastEpisodes": "Episodes",
+  "podcastNewestFirst": "Newest first",
+  "podcastOldestFirst": "Oldest first",
+  "podcastNoEpisodes": "No episodes yet",
+  "podcastUntitled": "Untitled episode",
+  "podcastDownload": "Download",
+  "podcastDownloading": "Downloading",
+  "podcastOnPhone": "On the phone",
+  "podcastDownloadFailed": "Download failed",
+  "podcastNoRoom": "Not enough space on the phone",
+  "podcastMetered": "Downloads over mobile data are off",
+  "podcastPlay": "Play",
+  "podcastEpisodesFailed": "Couldn't load episodes",
+  "podcastHoursMinutes": "{hours} h {minutes} min",
+  "@podcastHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "podcastMinutes": "{minutes} min",
+  "@podcastMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "playerSkipBack": "Back 15 seconds",
+  "playerSkipForward": "Forward 30 seconds",
+  "playerSpeed": "Speed",
+  "@playerSpeed": {
+    "description": "TalkBack label of the podcast speed button, followed by the current speed like 1.5×"
+  },
+  "@playerSkipBack": {
+    "description": "TalkBack label: rewind a podcast episode 15 seconds"
+  },
+  "@playerSkipForward": {
+    "description": "TalkBack label: skip a podcast episode ahead 30 seconds"
+  },
+  "knownAsHeading": "Also known as",
+  "knownAsSpoken": "Also known as {name}",
+  "@knownAsSpoken": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "crashTitle": "The app closed with an error last time",
+  "@crashTitle": {"description": "Sheet after a crash (FT-698)"},
+  "crashBody": "Send a report? It holds only places in the code: no songs, searches or addresses.",
+  "crashSend": "Send report",
+  "crashSkip": "Not now",
+  "crashNever": "Don't ask again",
+  "crashSent": "Report sent",
+  "crashNotSent": "Report not sent",
+  "spokenSpeed": "Speed",
+  "@spokenSpeed": {
+    "description": "Label for the speed tile on podcast player"
+  },
+  "spokenDownload": "Download",
+  "@spokenDownload": {
+    "description": "Label for the download tile on podcast player"
+  },
+  "spokenDownloaded": "Downloaded",
+  "@spokenDownloaded": {
+    "description": "Label for the downloaded tile on podcast player"
+  },
+  "spokenSleep": "Sleep timer",
+  "@spokenSleep": {
+    "description": "Label for the sleep timer tile on podcast player"
+  },
+  "spokenQueue": "Queue",
+  "@spokenQueue": {
+    "description": "Label for the queue tile on podcast player"
+  },
+  "spokenParts": "Parts",
+  "@spokenParts": {
+    "description": "Label for the parts tile on spoken player"
+  },
+  "spokenRemaining": "Left",
+  "@spokenRemaining": {
+    "description": "Label for the remaining tile on spoken player"
+  },
+  "spokenRemainingMinutes": "{m} min",
+  "@spokenRemainingMinutes": {
+    "description": "Remaining duration in minutes on spoken player",
+    "placeholders": {
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "spokenRemainingHoursMinutes": "{h} h {m} min",
+  "@spokenRemainingHoursMinutes": {
+    "description": "Remaining duration in hours and minutes on spoken player",
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryBooks": "Audiobooks",
+  "booksSearchHint": "Title or author",
+  "booksShelfTitle": "My shelf",
+  "booksEmptyShelf": "Your shelf is empty.\nFind a book in the search above and tap “To shelf”.",
+  "booksLoadFailed": "Failed to load shelf",
+  "booksRetry": "Try again",
+  "booksSearching": "Searching…",
+  "booksSearchFailed": "Search failed",
+  "booksNothingFound": "Nothing found",
+  "booksLanguages": "Languages",
+  "booksAllLanguages": "All languages",
+  "booksNoInLanguages": "No books in your languages",
+  "booksSearchAllLanguages": "Search all languages",
+  "booksAdd": "To shelf",
+  "booksAdding": "Adding…",
+  "booksOnShelf": "On shelf",
+  "booksListen": "Listen",
+  "booksFailureOffline": "No connection",
+  "booksFailureUnavailable": "Service unavailable",
+  "booksFailureSearchUnavailable": "Search unavailable",
+  "booksFailureExpired": "Link expired",
+  "booksFailureNoSpace": "Not enough space",
+  "booksFailureLimit": "Shelf limit reached",
+  "booksFailureNotABook": "Not an audiobook",
+  "booksFailureNotOnShelf": "Book not on shelf",
+  "booksFailureSignedOut": "Sign-in required",
+  "booksFailureBroken": "Invalid data",
+  "bookPageAddToShelf": "Add to shelf",
+  "bookPageAddFailed": "Couldn't add to shelf",
+  "bookPageListen": "Listen",
+  "bookPageContinue": "Continue",
+  "bookPageRestart": "Start over",
+  "bookPageRemoveFromShelf": "Remove from shelf",
+  "bookPageRemoveConfirm": "Remove book from shelf?",
+  "bookPageRemoveYes": "Remove",
+  "bookPageCancel": "Cancel",
+  "bookPageNarrator": "Narrator",
+  "bookPageLanguage": "Language",
+  "bookPageDuration": "Duration",
+  "bookPageParts": "Parts",
+  "bookPageYear": "Recording year",
+  "bookPagePartsAfterAdding": "after adding",
+  "bookPagePartsCount": "{count, plural, one{{count} part} other{{count} parts}}",
+  "@bookPagePartsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bookPageGone": "The book was removed from the shelf on another device",
+  "bookPageToMyShelf": "To my shelf",
+  "foreignTabLibrary": "Library",
+  "foreignTabFavorites": "Favorites",
+  "foreignLeave": "Sign out",
+  "foreignRetry": "Retry",
+  "foreignLoadFailed": "Could not load — check your connection",
+  "foreignLikeFailed": "Could not change the favorite",
+  "foreignAlbums": "Albums",
+  "foreignArtists": "Artists",
+  "foreignFavoritesEmpty": "No favorite songs yet",
+  "foreignLike": "Add to favorites",
+  "foreignUnlike": "Remove from favorites",
+  "foreignBack": "Back",
+  "languageName": "{code, select, ru{Russian} en{English} uk{Ukrainian} de{German} fr{French} es{Spanish} it{Italian} pl{Polish} pt{Portuguese} tr{Turkish} be{Belarusian} zh{Chinese} ja{Japanese} ko{Korean} other{}}",
+  "@languageName": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "loginErrorBadCode": "The code did not work: check the name and the code, or ask the admin for a new one",
+  "loginErrorWeakPassword": "The password needs 8 or more characters",
+  "loginHaveCode": "First sign-in with a code",
+  "loginHavePassword": "I already have a password",
+  "loginCode": "Code from the admin",
+  "loginNewPassword": "Make up a password (8 or more characters)",
+  "loginRepeatPassword": "Repeat the password",
+  "loginPasswordsDiffer": "The passwords do not match",
+  "loginClaim": "Save the password and sign in",
+  "accountChangePassword": "Change password",
+  "passwordOld": "Current password",
+  "passwordChanged": "Password changed. Other devices are signed out",
+  "passwordWrongOld": "The current password is wrong",
+  "passwordFailed": "The server did not answer. Try again",
+  "passwordSave": "Save"
+}

@@ -1,0 +1,220 @@
+{
+  "source": "https://itunes.apple.com/WebObjects/MZStoreServices.woa/ws/genres?id=34",
+  "fetched": "2026-09-21",
+  "music_id": "34",
+  "music_name": "Music",
+  "removed": [
+    {
+      "id": "3",
+      "name": "Comedy",
+      "why": "Comedy — не музыка каталога"
+    },
+    {
+      "id": "50",
+      "name": "Fitness & Workout",
+      "why": "Fitness & Workout — тренировки, не слушание"
+    },
+    {
+      "id": "8",
+      "name": "Holiday",
+      "why": "Holiday — сезонные сборники, не жанр каталога"
+    },
+    {
+      "id": "100107",
+      "name": "Hörspiele",
+      "why": "Hörspiele — радиопьесы, то же что Spoken Word"
+    },
+    {
+      "id": "52",
+      "name": "Karaoke",
+      "why": "Karaoke — минусовок в каталоге нет"
+    },
+    {
+      "id": "50000061",
+      "name": "Spoken Word",
+      "why": "Spoken Word — речь, не музыка"
+    }
+  ],
+  "itunes_top": [
+    {
+      "id": "1203",
+      "name": "African"
+    },
+    {
+      "id": "20",
+      "name": "Alternative"
+    },
+    {
+      "id": "29",
+      "name": "Anime"
+    },
+    {
+      "id": "1197",
+      "name": "Arabic"
+    },
+    {
+      "id": "2",
+      "name": "Blues"
+    },
+    {
+      "id": "1122",
+      "name": "Brazilian"
+    },
+    {
+      "id": "4",
+      "name": "Children's Music"
+    },
+    {
+      "id": "1232",
+      "name": "Chinese"
+    },
+    {
+      "id": "22",
+      "name": "Christian"
+    },
+    {
+      "id": "5",
+      "name": "Classical"
+    },
+    {
+      "id": "6",
+      "name": "Country"
+    },
+    {
+      "id": "100024",
+      "name": "Cuban"
+    },
+    {
+      "id": "17",
+      "name": "Dance"
+    },
+    {
+      "id": "50000063",
+      "name": "Disney"
+    },
+    {
+      "id": "25",
+      "name": "Easy Listening"
+    },
+    {
+      "id": "7",
+      "name": "Electronic"
+    },
+    {
+      "id": "28",
+      "name": "Enka"
+    },
+    {
+      "id": "1289",
+      "name": "Folk"
+    },
+    {
+      "id": "50000064",
+      "name": "French Pop"
+    },
+    {
+      "id": "50000068",
+      "name": "German Folk"
+    },
+    {
+      "id": "50000066",
+      "name": "German Pop"
+    },
+    {
+      "id": "18",
+      "name": "Hip-Hop/Rap"
+    },
+    {
+      "id": "1262",
+      "name": "Indian"
+    },
+    {
+      "id": "100000",
+      "name": "Inspirational"
+    },
+    {
+      "id": "53",
+      "name": "Instrumental"
+    },
+    {
+      "id": "27",
+      "name": "J-Pop"
+    },
+    {
+      "id": "11",
+      "name": "Jazz"
+    },
+    {
+      "id": "50000121",
+      "name": "Jewish Music"
+    },
+    {
+      "id": "30",
+      "name": "Kayokyoku"
+    },
+    {
+      "id": "1243",
+      "name": "Korean"
+    },
+    {
+      "id": "12",
+      "name": "Latin"
+    },
+    {
+      "id": "1291",
+      "name": "Marching"
+    },
+    {
+      "id": "13",
+      "name": "New Age"
+    },
+    {
+      "id": "1290",
+      "name": "Orchestral"
+    },
+    {
+      "id": "14",
+      "name": "Pop"
+    },
+    {
+      "id": "15",
+      "name": "R&B/Soul"
+    },
+    {
+      "id": "24",
+      "name": "Reggae"
+    },
+    {
+      "id": "21",
+      "name": "Rock"
+    },
+    {
+      "id": "1299",
+      "name": "Russian"
+    },
+    {
+      "id": "10",
+      "name": "Singer/Songwriter"
+    },
+    {
+      "id": "16",
+      "name": "Soundtrack"
+    },
+    {
+      "id": "100084",
+      "name": "Tarab"
+    },
+    {
+      "id": "1300",
+      "name": "Turkish"
+    },
+    {
+      "id": "23",
+      "name": "Vocal"
+    },
+    {
+      "id": "19",
+      "name": "Worldwide"
+    }
+  ]
+}

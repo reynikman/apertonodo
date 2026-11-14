@@ -1,0 +1,16 @@
+{
+  "name": "stream_missing",
+  "note": "",
+  "verb": "GET",
+  "path": "/Audio/00000000000000000000000000000000/stream",
+  "query": {
+    "static": "true"
+  },
+  "request_headers": {
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\", Token=\"<token>\""
+  },
+  "request_body": null,
+  "status": 400,
+  "content_type": "text/plain",
+  "text": "Error processing request."
+}

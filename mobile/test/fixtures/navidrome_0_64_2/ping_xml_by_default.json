@@ -1,0 +1,16 @@
+{
+  "name": "ping_xml_by_default",
+  "note": "без f=json сервер отвечает XML",
+  "method": "ping.view",
+  "query": {
+    "u": "tester",
+    "t": "<token>",
+    "s": "<salt>",
+    "v": "1.16.1",
+    "c": "apertono"
+  },
+  "request_headers": {},
+  "status": 200,
+  "content_type": "application/xml",
+  "text": "<subsonic-response xmlns=\"http://subsonic.org/restapi\" status=\"ok\" version=\"1.16.1\" type=\"navidrome\" serverVersion=\"0.64.2 (10114574)\" openSubsonic=\"true\"></subsonic-response>"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+  <title>Loud Pages</title>
+  <link>https://loudpages.example.org/</link>
+  <item>
+    <title>Quiet Lighthouse Orchestra announce a winter tour</title>
+    <link>https://loudpages.example.org/news/qlo-tour</link>
+    <pubDate>{FRESH}</pubDate>
+    <description><![CDATA[<p>The band <b>Quiet Lighthouse Orchestra</b> will play twelve cities.</p><p>Tickets go on sale Friday &amp; sell fast.</p>]]></description>
+    <media:content url="https://cdn.loudpages.example.org/qlo.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>A new museum of guitars opens in Leeds</title>
+    <link>https://loudpages.example.org/news/museum</link>
+    <pubDate>{FRESH}</pubDate>
+    <description>Nothing about any band you follow, just a museum.</description>
+  </item>
+  <item>
+    <title>Muse headline the festival</title>
+    <link>https://loudpages.example.org/news/muse</link>
+    <pubDate>{FRESH}</pubDate>
+    <description>Short note.</description>
+    <enclosure url="https://cdn.loudpages.example.org/muse.png" type="image/png" length="10"/>
+  </item>
+  <item>
+    <title>Quiet Lighthouse Orchestra: an old story</title>
+    <link>https://loudpages.example.org/news/qlo-old</link>
+    <pubDate>{OLD}</pubDate>
+    <description>Old news.</description>
+  </item>
+  <item>
+    <title>Second Artist releases nothing</title>
+    <link>https://loudpages.example.org/news/second</link>
+    <pubDate>{FRESH}</pubDate>
+    <description>About an artist nobody here follows.</description>
+  </item>
+</channel>
+</rss>

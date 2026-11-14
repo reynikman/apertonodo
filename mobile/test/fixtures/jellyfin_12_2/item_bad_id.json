@@ -1,0 +1,26 @@
+{
+  "name": "item_bad_id",
+  "note": "",
+  "verb": "GET",
+  "path": "/Items/no-such-id",
+  "query": {
+    "userId": "89dcd7c0113246fbbb5c27f8c5f80cf7"
+  },
+  "request_headers": {
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\", Token=\"<token>\""
+  },
+  "request_body": null,
+  "status": 400,
+  "content_type": "application/json; charset=utf-8",
+  "json": {
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+      "itemId": [
+        "The value 'no-such-id' is not valid."
+      ]
+    },
+    "traceId": "00-4c9c93ec2e67785fd31285a9d280078a-e698c10b7cb69623-00"
+  }
+}

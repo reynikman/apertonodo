@@ -1,0 +1,24 @@
+{
+  "letters": [
+    {
+      "letter": "A",
+      "artists": 2140,
+      "offset": 0
+    },
+    {
+      "letter": "B",
+      "artists": 2675,
+      "offset": 2140
+    },
+    {
+      "letter": "К",
+      "artists": 412,
+      "offset": 36011
+    },
+    {
+      "letter": "#",
+      "artists": 198,
+      "offset": 38645
+    }
+  ]
+}

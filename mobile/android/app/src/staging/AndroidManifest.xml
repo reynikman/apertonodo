@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Staging talks to a server on the local network over http (config/staging.json).
+         Only debug had the cleartext permission, so a staging release build would
+         open neither search nor audio: ExoPlayer obeys this restriction just like
+         the http client (audit of 18 September). Prod uses https
+         and does not get this permission. -->
+    <application android:usesCleartextTraffic="true" />
+</manifest>

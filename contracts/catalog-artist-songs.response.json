@@ -1,0 +1,20 @@
+{
+  "tracks": [
+    {
+      "id": "005bfa2b-e86b-41a3-b08d-49b0372496dd",
+      "title": "Enter Sandman",
+      "artist": "Metallica",
+      "duration_ms": 331573,
+      "artwork_url": "",
+      "playable": true
+    },
+    {
+      "id": "b4c3c4e8-1f8a-4f2c-9b0e-5b2f2c6f1a10",
+      "title": "Nothing Else Matters",
+      "artist": "Metallica",
+      "duration_ms": 388333,
+      "artwork_url": "",
+      "playable": true
+    }
+  ]
+}

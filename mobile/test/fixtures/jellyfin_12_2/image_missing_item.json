@@ -1,0 +1,12 @@
+{
+  "name": "image_missing_item",
+  "note": "",
+  "verb": "GET",
+  "path": "/Items/00000000000000000000000000000000/Images/Primary",
+  "query": {},
+  "request_headers": {},
+  "request_body": null,
+  "status": 400,
+  "content_type": "text/plain",
+  "text": "Error processing request."
+}

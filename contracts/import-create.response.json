@@ -1,0 +1,67 @@
+{
+  "id": "4f0c2a9e-7d1b-4c3e-9a5f-2b8d6e1f0a3c",
+  "lists": [
+    {
+      "index": 0,
+      "name": "Liked Songs",
+      "favorites_hint": true,
+      "total": 3,
+      "found": 1,
+      "doubtful": 1,
+      "missing": 1,
+      "rows": [
+        {
+          "n": 0,
+          "artist": "Slipknot",
+          "title": "Duality",
+          "status": "found",
+          "track": {
+            "id": "33333333-3333-3333-3333-333333333333",
+            "title": "Duality",
+            "artist": "Slipknot",
+            "duration_ms": 252000,
+            "artwork_url": ""
+          },
+          "candidates": []
+        },
+        {
+          "n": 1,
+          "artist": "Nirvana",
+          "title": "Lithium",
+          "status": "doubtful",
+          "track": {
+            "id": "44444444-4444-4444-4444-444444444444",
+            "title": "Lithium",
+            "artist": "Nirvana",
+            "duration_ms": 257000,
+            "artwork_url": ""
+          },
+          "candidates": [
+            {
+              "id": "44444444-4444-4444-4444-444444444444",
+              "title": "Lithium",
+              "artist": "Nirvana",
+              "duration_ms": 257000,
+              "artwork_url": ""
+            },
+            {
+              "id": "55555555-5555-5555-5555-555555555555",
+              "title": "Lithium",
+              "artist": "Nirvana",
+              "duration_ms": 190000,
+              "artwork_url": ""
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "artist": "Nobody Band",
+          "title": "No Such Song",
+          "status": "missing",
+          "track": null,
+          "candidates": []
+        }
+      ]
+    }
+  ]
+}

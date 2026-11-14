@@ -1,0 +1,14 @@
+{
+  "name": "logout",
+  "note": "",
+  "verb": "POST",
+  "path": "/Sessions/Logout",
+  "query": {},
+  "request_headers": {
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\", Token=\"<token>\""
+  },
+  "request_body": null,
+  "status": 204,
+  "content_type": "",
+  "text": ""
+}

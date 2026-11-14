@@ -1,0 +1,26 @@
+{
+  "name": "star_missing",
+  "note": "",
+  "method": "star.view",
+  "query": {
+    "u": "tester",
+    "t": "<token>",
+    "s": "<salt>",
+    "v": "1.16.1",
+    "c": "apertono",
+    "f": "json",
+    "id": "no-such-id"
+  },
+  "request_headers": {},
+  "status": 200,
+  "content_type": "application/json",
+  "json": {
+    "subsonic-response": {
+      "status": "ok",
+      "version": "1.16.1",
+      "type": "navidrome",
+      "serverVersion": "0.64.2 (10114574)",
+      "openSubsonic": true
+    }
+  }
+}

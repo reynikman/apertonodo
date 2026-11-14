@@ -1,0 +1,78 @@
+{
+  "name": "song",
+  "note": "",
+  "method": "getSong.view",
+  "query": {
+    "u": "tester",
+    "t": "<token>",
+    "s": "<salt>",
+    "v": "1.16.1",
+    "c": "apertono",
+    "f": "json",
+    "id": "2llbCRtEv5j7BosspiA3xR"
+  },
+  "request_headers": {},
+  "status": 200,
+  "content_type": "application/json",
+  "json": {
+    "subsonic-response": {
+      "status": "ok",
+      "version": "1.16.1",
+      "type": "navidrome",
+      "serverVersion": "0.64.2 (10114574)",
+      "openSubsonic": true,
+      "song": {
+        "id": "2llbCRtEv5j7BosspiA3xR",
+        "parent": "5w43XUdYrcWMCGWoPzXK7t",
+        "isDir": false,
+        "title": "Test Tone Long",
+        "album": "Test Tones",
+        "artist": "Apertono",
+        "track": 1,
+        "year": 2026,
+        "size": 97106,
+        "contentType": "audio/mpeg",
+        "suffix": "mp3",
+        "duration": 6,
+        "bitRate": 129,
+        "path": "Apertono/Test Tones/01 - Test Tone Long.mp3",
+        "created": "2026-10-07T03:16:19.582849+03:00",
+        "albumId": "5w43XUdYrcWMCGWoPzXK7t",
+        "artistId": "65gKQEzZjvqlrA7DDldiAd",
+        "type": "music",
+        "bpm": 0,
+        "comment": "",
+        "sortName": "test tone long",
+        "mediaType": "song",
+        "musicBrainzId": "",
+        "isrc": [],
+        "genres": [],
+        "replayGain": {},
+        "channelCount": 1,
+        "samplingRate": 44100,
+        "bitDepth": 0,
+        "moods": [],
+        "artists": [
+          {
+            "id": "65gKQEzZjvqlrA7DDldiAd",
+            "name": "Apertono"
+          }
+        ],
+        "displayArtist": "Apertono",
+        "albumArtists": [
+          {
+            "id": "65gKQEzZjvqlrA7DDldiAd",
+            "name": "Apertono"
+          }
+        ],
+        "displayAlbumArtist": "Apertono",
+        "contributors": [],
+        "displayComposer": "",
+        "explicitStatus": "",
+        "groupings": [],
+        "works": [],
+        "movements": []
+      }
+    }
+  }
+}

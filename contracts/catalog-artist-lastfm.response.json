@@ -1,0 +1,36 @@
+{
+  "artist": {
+    "id": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+    "name": "Metallica",
+    "photo": "/v1/photos/65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+    "photo_credit": "Kreepin Deth, CC BY-SA 4.0"
+  },
+  "albums": [
+    {
+      "id": "e8f70201-8899-3f0c-9e07-5d6495bc8046",
+      "title": "Metallica",
+      "year": 1991,
+      "kind": "album",
+      "editions": [],
+      "playable": true,
+      "cover": "/v1/covers/e8f70201-8899-3f0c-9e07-5d6495bc8046"
+    }
+  ],
+  "top_tracks": [
+    {
+      "id": "005bfa2b-e86b-41a3-b08d-49b0372496dd",
+      "title": "Enter Sandman",
+      "artist": "Metallica",
+      "duration_ms": 331573,
+      "artwork_url": "",
+      "playable": true
+    }
+  ],
+  "similar": [
+    {
+      "name": "Megadeth",
+      "photo": null
+    }
+  ],
+  "bio": "Metallica is an American heavy metal band."
+}

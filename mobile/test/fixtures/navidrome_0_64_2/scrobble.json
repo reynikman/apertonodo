@@ -1,0 +1,27 @@
+{
+  "name": "scrobble",
+  "note": "",
+  "method": "scrobble.view",
+  "query": {
+    "u": "tester",
+    "t": "<token>",
+    "s": "<salt>",
+    "v": "1.16.1",
+    "c": "apertono",
+    "f": "json",
+    "id": "2llbCRtEv5j7BosspiA3xR",
+    "submission": "true"
+  },
+  "request_headers": {},
+  "status": 200,
+  "content_type": "application/json",
+  "json": {
+    "subsonic-response": {
+      "status": "ok",
+      "version": "1.16.1",
+      "type": "navidrome",
+      "serverVersion": "0.64.2 (10114574)",
+      "openSubsonic": true
+    }
+  }
+}

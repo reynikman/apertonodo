@@ -1,0 +1,18 @@
+{
+  "artists": [
+    {
+      "name": "Metallica",
+      "photo": "/v1/photos/65f4f0c5-ef9e-490c-a730-88a284936fd8"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "title": "Nothing Else Matters",
+      "artist": "Metallica",
+      "duration_ms": 388000,
+      "artwork_url": "",
+      "playable": true
+    }
+  ]
+}

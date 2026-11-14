@@ -1,0 +1,14 @@
+{
+  "name": "unknown_path",
+  "note": "",
+  "verb": "GET",
+  "path": "/NoSuchThing",
+  "query": {},
+  "request_headers": {
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\", Token=\"<token>\""
+  },
+  "request_body": null,
+  "status": 404,
+  "content_type": "",
+  "text": ""
+}

@@ -1,0 +1,45 @@
+{
+  "name": "artists_search",
+  "note": "",
+  "verb": "GET",
+  "path": "/Artists",
+  "query": {
+    "userId": "89dcd7c0113246fbbb5c27f8c5f80cf7",
+    "searchTerm": "apert",
+    "Limit": "20"
+  },
+  "request_headers": {
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\", Token=\"<token>\""
+  },
+  "request_body": null,
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "json": {
+    "Items": [
+      {
+        "Name": "Apertono",
+        "ServerId": "67abb6f04b91439e9031de53039a3baf",
+        "Id": "d02698b82c3d2a13a46ba7ba6ffcc96b",
+        "ChannelId": null,
+        "RunTimeTicks": 0,
+        "IsFolder": true,
+        "Type": "MusicArtist",
+        "UserData": {
+          "PlaybackPositionTicks": 0,
+          "PlayCount": 0,
+          "IsFavorite": false,
+          "Played": false,
+          "Key": "Artist-Apertono",
+          "ItemId": "d02698b82c3d2a13a46ba7ba6ffcc96b"
+        },
+        "ImageTags": {},
+        "BackdropImageTags": [],
+        "ImageBlurHashes": {},
+        "LocationType": "FileSystem",
+        "MediaType": "Unknown"
+      }
+    ],
+    "TotalRecordCount": 1,
+    "StartIndex": 0
+  }
+}

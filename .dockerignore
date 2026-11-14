@@ -1,0 +1,13 @@
+.git
+.venv
+server/.venv
+**/__pycache__
+**/*.pyc
+mobile/.dart_tool
+mobile/build
+.pgdata
+.pg-run
+.pytest_cache
+*.egg-info
+.hermes
+.planning

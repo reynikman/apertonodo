@@ -1,0 +1,14 @@
+{
+  "name": "me_query_api_key",
+  "note": "старое имя параметра: Jellyfin 12 его не принимает",
+  "verb": "GET",
+  "path": "/Users/Me",
+  "query": {
+    "api_key": "<token>"
+  },
+  "request_headers": {},
+  "request_body": null,
+  "status": 401,
+  "content_type": "",
+  "text": ""
+}

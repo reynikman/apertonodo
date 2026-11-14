@@ -1,0 +1,14 @@
+{
+  "name": "image_song",
+  "note": "",
+  "verb": "GET",
+  "path": "/Items/d26085522241ca48affd21a482b7d39e/Images/Primary",
+  "query": {
+    "maxWidth": "300"
+  },
+  "request_headers": {},
+  "request_body": null,
+  "status": 404,
+  "content_type": "application/json; charset=utf-8",
+  "json": "Test Tone Long does not have an image of type Primary"
+}

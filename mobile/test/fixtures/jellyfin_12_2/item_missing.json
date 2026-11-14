@@ -1,0 +1,62 @@
+{
+  "name": "item_missing",
+  "note": "",
+  "verb": "GET",
+  "path": "/Items/00000000000000000000000000000000",
+  "query": {
+    "userId": "89dcd7c0113246fbbb5c27f8c5f80cf7"
+  },
+  "request_headers": {
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\", Token=\"<token>\""
+  },
+  "request_body": null,
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "json": {
+    "Name": "Media Folders",
+    "ServerId": "67abb6f04b91439e9031de53039a3baf",
+    "Id": "e9d5075a555c1cbc394eec4cef295274",
+    "Etag": "c6b8fb950f92b2e23b6c4b736f0cb02f",
+    "DateCreated": "2026-10-07T00:26:27.74347Z",
+    "DateLastMediaAdded": "0001-01-01T00:00:00.0000000Z",
+    "CanDelete": false,
+    "CanDownload": false,
+    "SortName": "media folders",
+    "ExternalUrls": [],
+    "Path": "/data/root/default",
+    "EnableMediaSourceDisplay": true,
+    "ChannelId": null,
+    "Taglines": [],
+    "Genres": [],
+    "PlayAccess": "Full",
+    "RemoteTrailers": [],
+    "ProviderIds": {},
+    "IsFolder": true,
+    "ParentId": null,
+    "Type": "UserRootFolder",
+    "People": [],
+    "Studios": [],
+    "GenreItems": [],
+    "LocalTrailerCount": 0,
+    "UserData": {
+      "PlaybackPositionTicks": 0,
+      "PlayCount": 0,
+      "IsFavorite": true,
+      "Played": false,
+      "Key": "e9d5075a-555c-1cbc-394e-ec4cef295274",
+      "ItemId": "e9d5075a555c1cbc394eec4cef295274"
+    },
+    "ChildCount": 1,
+    "SpecialFeatureCount": 0,
+    "DisplayPreferencesId": "b21ccc945ed35ac08c3b35d5de9e71f3",
+    "Tags": [],
+    "ImageTags": {},
+    "BackdropImageTags": [],
+    "ImageBlurHashes": {},
+    "Chapters": [],
+    "LocationType": "FileSystem",
+    "MediaType": "Unknown",
+    "LockedFields": [],
+    "LockData": false
+  }
+}

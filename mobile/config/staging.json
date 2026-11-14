@@ -1,0 +1,5 @@
+{
+  "MUSIC_ENV": "staging",
+  "MUSIC_API_BASE_URL": "http://192.0.2.10:18088",
+  "MUSIC_HEALTH_PATH": "/v1/health"
+}

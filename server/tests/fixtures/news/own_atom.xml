@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>A tiny zine</title>
+  <entry>
+    <title>Zine issue 12 is out</title>
+    <link rel="alternate" href="https://zine.example.org/12"/>
+    <updated>{FRESH_ISO}</updated>
+    <content type="html">&lt;p&gt;Long read about tape loops.&lt;/p&gt;&lt;img src="https://zine.example.org/cover12.jpg"&gt;</content>
+  </entry>
+</feed>

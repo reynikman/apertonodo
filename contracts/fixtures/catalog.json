@@ -1,0 +1,160 @@
+{
+  "tracks": [
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "title": "Nothing Else Matters",
+      "artist": "Metallica",
+      "duration_ms": 388000,
+      "artwork_url": ""
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222222",
+      "title": "Nothing Else Matters (Remastered 2021)",
+      "artist": "Metallica",
+      "duration_ms": 388000,
+      "artwork_url": ""
+    },
+    {
+      "id": "33333333-3333-3333-3333-333333333333",
+      "title": "Duality",
+      "artist": "Slipknot",
+      "duration_ms": 252000,
+      "artwork_url": ""
+    },
+    {
+      "id": "44444444-4444-4444-4444-444444444444",
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "duration_ms": 301000,
+      "artwork_url": ""
+    },
+    {
+      "id": "55555555-5555-5555-5555-555555555555",
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "duration_ms": 355000,
+      "artwork_url": ""
+    },
+    {
+      "id": "66666666-6666-6666-6666-666666666666",
+      "title": "Yesterday",
+      "artist": "The Beatles",
+      "duration_ms": 125000,
+      "artwork_url": ""
+    },
+    {
+      "id": "77777777-7777-7777-7777-777777777777",
+      "title": "Creep",
+      "artist": "Radiohead",
+      "duration_ms": 238000,
+      "artwork_url": ""
+    },
+    {
+      "id": "88888888-8888-8888-8888-888888888888",
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "duration_ms": 255000,
+      "artwork_url": ""
+    },
+    {
+      "id": "99999999-9999-9999-9999-999999999999",
+      "title": "Wish You Were Here",
+      "artist": "Pink Floyd",
+      "duration_ms": 334000,
+      "artwork_url": ""
+    },
+    {
+      "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+      "title": "Группа крови",
+      "artist": "Кино",
+      "duration_ms": 240000,
+      "artwork_url": ""
+    },
+    {
+      "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "title": "Что такое осень",
+      "artist": "ДДТ",
+      "duration_ms": 286000,
+      "artwork_url": ""
+    },
+    {
+      "id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+      "title": "Лесник",
+      "artist": "Король и Шут",
+      "duration_ms": 198000,
+      "artwork_url": ""
+    },
+    {
+      "id": "dddddddd-dddd-dddd-dddd-dddddddddddd",
+      "title": "Хочешь",
+      "artist": "Земфира",
+      "duration_ms": 232000,
+      "artwork_url": ""
+    },
+    {
+      "id": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+      "title": "Eine kleine Nachtmusik",
+      "artist": "Mozart",
+      "duration_ms": 355000,
+      "artwork_url": ""
+    },
+    {
+      "id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+      "title": "Air on the G String",
+      "artist": "Bach",
+      "duration_ms": 305000,
+      "artwork_url": ""
+    },
+    {
+      "id": "10101010-1010-1010-1010-101010101010",
+      "title": "Fur Elise",
+      "artist": "Beethoven",
+      "duration_ms": 176000,
+      "artwork_url": ""
+    },
+    {
+      "id": "12121212-1212-1212-1212-121212121212",
+      "title": "Nocturne Op 9 No 2",
+      "artist": "Chopin",
+      "duration_ms": 270000,
+      "artwork_url": ""
+    },
+    {
+      "id": "13131313-1313-1313-1313-131313131313",
+      "title": "Jupiter",
+      "artist": "Holst",
+      "duration_ms": 479000,
+      "artwork_url": ""
+    },
+    {
+      "id": "14141414-1414-1414-1414-141414141414",
+      "title": "Come As You Are",
+      "artist": "Nirvana",
+      "duration_ms": 219000,
+      "artwork_url": ""
+    },
+    {
+      "id": "15151515-1515-1515-1515-151515151515",
+      "title": "Don't Stop Me Now",
+      "artist": "Queen",
+      "duration_ms": 210000,
+      "artwork_url": ""
+    },
+    {
+      "id": "f1070000-0000-4000-8000-000000000090",
+      "title": "Test Tone Long",
+      "artist": "Flowtune",
+      "duration_ms": 90000,
+      "artwork_url": "",
+      "test_tone": true
+    },
+    {
+      "id": "f1070000-0000-4000-8000-000000000004",
+      "title": "Test Tone Short",
+      "artist": "Flowtune",
+      "duration_ms": 4000,
+      "artwork_url": "",
+      "test_tone": true
+    }
+  ]
+}

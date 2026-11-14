@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCqloTEST000000000000000"/>
+ <id>yt:channel:qloTEST000000000000000</id>
+ <yt:channelId>qloTEST000000000000000</yt:channelId>
+ <title>Quiet Lighthouse Orchestra</title>
+ <entry>
+  <id>yt:video:abcDEF12345</id>
+  <yt:videoId>abcDEF12345</yt:videoId>
+  <yt:channelId>UCqloTEST000000000000000</yt:channelId>
+  <title>Winter tour — rehearsal diary</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=abcDEF12345"/>
+  <published>{FRESH_ISO}</published>
+  <updated>{FRESH_ISO}</updated>
+  <media:group>
+   <media:title>Winter tour — rehearsal diary</media:title>
+   <media:content url="https://www.youtube.com/v/abcDEF12345?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/abcDEF12345/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Twelve cities, one van.
+Full setlist in the comments &amp; more.</media:description>
+  </media:group>
+ </entry>
+</feed>

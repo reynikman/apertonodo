@@ -1,0 +1,30 @@
+{
+  "name": "album_missing",
+  "note": "",
+  "method": "getAlbum.view",
+  "query": {
+    "u": "tester",
+    "t": "<token>",
+    "s": "<salt>",
+    "v": "1.16.1",
+    "c": "apertono",
+    "f": "json",
+    "id": "no-such-id"
+  },
+  "request_headers": {},
+  "status": 200,
+  "content_type": "application/json",
+  "json": {
+    "subsonic-response": {
+      "status": "failed",
+      "version": "1.16.1",
+      "type": "navidrome",
+      "serverVersion": "0.64.2 (10114574)",
+      "openSubsonic": true,
+      "error": {
+        "code": 70,
+        "message": "Album not found"
+      }
+    }
+  }
+}

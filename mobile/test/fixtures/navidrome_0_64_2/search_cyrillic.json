@@ -1,0 +1,81 @@
+{
+  "name": "search_cyrillic",
+  "note": "",
+  "method": "search3.view",
+  "query": {
+    "u": "tester",
+    "t": "<token>",
+    "s": "<salt>",
+    "v": "1.16.1",
+    "c": "apertono",
+    "f": "json",
+    "query": "песня"
+  },
+  "request_headers": {},
+  "status": 200,
+  "content_type": "application/json",
+  "json": {
+    "subsonic-response": {
+      "status": "ok",
+      "version": "1.16.1",
+      "type": "navidrome",
+      "serverVersion": "0.64.2 (10114574)",
+      "openSubsonic": true,
+      "searchResult3": {
+        "song": [
+          {
+            "id": "2WSs1keKVRhfUiCMeJnhzk",
+            "parent": "32dix3IB0S9Hpbr17sKl1r",
+            "isDir": false,
+            "title": "Песня & знак",
+            "album": "Альбом с кириллицей",
+            "artist": "Второй Исполнитель",
+            "track": 1,
+            "size": 46714,
+            "contentType": "audio/flac",
+            "suffix": "flac",
+            "duration": 3,
+            "bitRate": 102,
+            "path": "Второй Исполнитель/Альбом с кириллицей/01 - Песня & знак.flac",
+            "created": "2026-10-07T03:16:07.938579+03:00",
+            "albumId": "32dix3IB0S9Hpbr17sKl1r",
+            "artistId": "0ZmWO1BeQ8qmCCkcxb5Z7f",
+            "type": "music",
+            "bpm": 0,
+            "comment": "",
+            "sortName": "песня & знак",
+            "mediaType": "song",
+            "musicBrainzId": "",
+            "isrc": [],
+            "genres": [],
+            "replayGain": {},
+            "channelCount": 1,
+            "samplingRate": 44100,
+            "bitDepth": 16,
+            "moods": [],
+            "artists": [
+              {
+                "id": "0ZmWO1BeQ8qmCCkcxb5Z7f",
+                "name": "Второй Исполнитель"
+              }
+            ],
+            "displayArtist": "Второй Исполнитель",
+            "albumArtists": [
+              {
+                "id": "0ZmWO1BeQ8qmCCkcxb5Z7f",
+                "name": "Второй Исполнитель"
+              }
+            ],
+            "displayAlbumArtist": "Второй Исполнитель",
+            "contributors": [],
+            "displayComposer": "",
+            "explicitStatus": "",
+            "groupings": [],
+            "works": [],
+            "movements": []
+          }
+        ]
+      }
+    }
+  }
+}

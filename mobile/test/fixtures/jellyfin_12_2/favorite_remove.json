@@ -1,0 +1,23 @@
+{
+  "name": "favorite_remove",
+  "note": "",
+  "verb": "DELETE",
+  "path": "/UserFavoriteItems/d26085522241ca48affd21a482b7d39e",
+  "query": {
+    "userId": "89dcd7c0113246fbbb5c27f8c5f80cf7"
+  },
+  "request_headers": {
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\", Token=\"<token>\""
+  },
+  "request_body": null,
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "json": {
+    "PlaybackPositionTicks": 0,
+    "PlayCount": 0,
+    "IsFavorite": false,
+    "Played": false,
+    "Key": "Apertono-Test Tones-0001Test Tone Long",
+    "ItemId": "d26085522241ca48affd21a482b7d39e"
+  }
+}

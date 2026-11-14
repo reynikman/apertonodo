@@ -1,0 +1,37 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:music_stream/app.dart';
+import 'package:music_stream/models/track.dart';
+
+void main() {
+  testWidgets('selecting a result opens mini player and player', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      MusicApp(
+        catalog: const [
+          Track(
+            id: '1',
+            title: 'Duality',
+            artist: 'Slipknot',
+            durationMs: 252000,
+            artworkUrl: 'https://example.test/cover',
+          ),
+        ],
+      ),
+    );
+
+    await tester.enterText(find.byKey(const Key('search-field')), 'duality');
+    await tester.testTextInput.receiveAction(TextInputAction.search);
+    await tester.pump();
+    await tester.tap(find.text('Duality').first);
+    await tester.pump();
+
+    expect(find.byKey(const Key('mini-player')), findsOneWidget);
+
+    await tester.tap(find.byKey(const Key('mini-player')));
+    await tester.pumpAndSettle();
+
+    expect(find.byKey(const Key('player-screen')), findsOneWidget);
+  });
+}

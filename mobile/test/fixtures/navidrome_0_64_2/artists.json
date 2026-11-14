@@ -1,0 +1,65 @@
+{
+  "name": "artists",
+  "note": "",
+  "method": "getArtists.view",
+  "query": {
+    "u": "tester",
+    "t": "<token>",
+    "s": "<salt>",
+    "v": "1.16.1",
+    "c": "apertono",
+    "f": "json"
+  },
+  "request_headers": {},
+  "status": 200,
+  "content_type": "application/json",
+  "json": {
+    "subsonic-response": {
+      "status": "ok",
+      "version": "1.16.1",
+      "type": "navidrome",
+      "serverVersion": "0.64.2 (10114574)",
+      "openSubsonic": true,
+      "artists": {
+        "index": [
+          {
+            "name": "#",
+            "artist": [
+              {
+                "id": "0ZmWO1BeQ8qmCCkcxb5Z7f",
+                "name": "Второй Исполнитель",
+                "albumCount": 1,
+                "musicBrainzId": "",
+                "sortName": "второй исполнитель",
+                "roles": [
+                  "maincredit",
+                  "albumartist",
+                  "artist"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "A",
+            "artist": [
+              {
+                "id": "65gKQEzZjvqlrA7DDldiAd",
+                "name": "Apertono",
+                "albumCount": 1,
+                "musicBrainzId": "",
+                "sortName": "apertono",
+                "roles": [
+                  "albumartist",
+                  "artist",
+                  "maincredit"
+                ]
+              }
+            ]
+          }
+        ],
+        "lastModified": 1791332184000,
+        "ignoredArticles": "The El La Los Las Le Les Os As O A"
+      }
+    }
+  }
+}

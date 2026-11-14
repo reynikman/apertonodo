@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Recording the app's own audio is for the dev test build only
+         (FT-549, P7, Р-A62). This file does not reach prod or staging: the dev
+         source set is built only by the dev flavor, so they have no capture permissions.
+         FOREGROUND_SERVICE and POST_NOTIFICATIONS are already in main. -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"/>
+    <application
+        android:name="app.apertono.player.dev.CaptureApplication"
+        tools:replace="android:name">
+        <!-- Android 14 does not allow capturing app audio without a foreground
+             service of type mediaProjection. -->
+        <service
+            android:name="app.apertono.player.dev.CaptureService"
+            android:exported="false"
+            android:foregroundServiceType="mediaProjection"/>
+    </application>
+</manifest>

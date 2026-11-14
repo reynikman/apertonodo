@@ -1,0 +1,68 @@
+{
+  "name": "search_cyrillic",
+  "note": "",
+  "verb": "GET",
+  "path": "/Items",
+  "query": {
+    "userId": "89dcd7c0113246fbbb5c27f8c5f80cf7",
+    "SearchTerm": "песня",
+    "IncludeItemTypes": "Audio,MusicAlbum,MusicArtist",
+    "Recursive": "true",
+    "Limit": "20"
+  },
+  "request_headers": {
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\", Token=\"<token>\""
+  },
+  "request_body": null,
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "json": {
+    "Items": [
+      {
+        "Name": "Песня & знак",
+        "ServerId": "67abb6f04b91439e9031de53039a3baf",
+        "Id": "fe6d1d3fd34defd8eeba432d7bd98507",
+        "HasLyrics": false,
+        "Container": "flac",
+        "PremiereDate": "0001-01-01T00:00:00.0000000Z",
+        "ChannelId": null,
+        "RunTimeTicks": 30000000,
+        "IndexNumber": 1,
+        "IsFolder": false,
+        "Type": "Audio",
+        "UserData": {
+          "PlaybackPositionTicks": 0,
+          "PlayCount": 0,
+          "IsFavorite": false,
+          "Played": false,
+          "Key": "Второй Исполнитель-Альбом с кириллицей-0001Песня & знак",
+          "ItemId": "fe6d1d3fd34defd8eeba432d7bd98507"
+        },
+        "Artists": [
+          "Второй Исполнитель"
+        ],
+        "ArtistItems": [
+          {
+            "Name": "Второй Исполнитель",
+            "Id": "8b00cb0e28fa35603b128fd38161fe61"
+          }
+        ],
+        "Album": "Альбом с кириллицей",
+        "AlbumArtist": "Второй Исполнитель",
+        "AlbumArtists": [
+          {
+            "Name": "Второй Исполнитель",
+            "Id": "8b00cb0e28fa35603b128fd38161fe61"
+          }
+        ],
+        "ImageTags": {},
+        "BackdropImageTags": [],
+        "ImageBlurHashes": {},
+        "LocationType": "FileSystem",
+        "MediaType": "Audio"
+      }
+    ],
+    "TotalRecordCount": 1,
+    "StartIndex": 0
+  }
+}

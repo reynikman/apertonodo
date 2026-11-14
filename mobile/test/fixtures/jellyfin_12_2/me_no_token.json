@@ -1,0 +1,14 @@
+{
+  "name": "me_no_token",
+  "note": "",
+  "verb": "GET",
+  "path": "/Users/Me",
+  "query": {},
+  "request_headers": {
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\""
+  },
+  "request_body": null,
+  "status": 401,
+  "content_type": "",
+  "text": ""
+}

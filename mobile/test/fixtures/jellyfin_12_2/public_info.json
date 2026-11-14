@@ -1,0 +1,20 @@
+{
+  "name": "public_info",
+  "note": "без входа: это Jellyfin и какой версии",
+  "verb": "GET",
+  "path": "/System/Info/Public",
+  "query": {},
+  "request_headers": {},
+  "request_body": null,
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "json": {
+    "LocalAddress": "http://127.0.0.1:8096",
+    "ServerName": "test-server",
+    "Version": "12.2.0",
+    "ProductName": "Jellyfin Server",
+    "OperatingSystem": "",
+    "Id": "67abb6f04b91439e9031de53039a3baf",
+    "StartupWizardCompleted": true
+  }
+}

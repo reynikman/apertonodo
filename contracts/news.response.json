@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "id": "101",
+      "type": "article",
+      "channel": "Loud Pages",
+      "title": "Quiet Lighthouse Orchestra announce a winter tour",
+      "text": "The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. The band played twelve cities in twelve nights and every one of them sold out. THE-LAST-WORDS.",
+      "link": "https://loudpages.example.org/news/qlo-tour",
+      "image": "/v1/photos/news/101",
+      "published": "2026-10-05T10:00:00+00:00",
+      "artist": "Quiet Lighthouse Orchestra"
+    },
+    {
+      "id": "102",
+      "type": "release",
+      "channel": "MusicBrainz",
+      "title": "Группа крови",
+      "text": "",
+      "link": null,
+      "image": null,
+      "published": "2026-10-04T00:00:00+00:00",
+      "artist": "Кино",
+      "album_id": "c1a2b3c4-0000-4000-8000-000000000001"
+    },
+    {
+      "id": "103",
+      "type": "article",
+      "channel": "A tiny zine",
+      "title": "Zine issue 12 is out",
+      "text": "Long read about tape loops.",
+      "link": "https://t.me/qlo_band/101",
+      "image": null,
+      "published": "2026-10-03T09:00:00+00:00",
+      "artist": null
+    }
+  ]
+}

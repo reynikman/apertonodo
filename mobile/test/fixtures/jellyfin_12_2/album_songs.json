@@ -1,0 +1,124 @@
+{
+  "name": "album_songs",
+  "note": "",
+  "verb": "GET",
+  "path": "/Items",
+  "query": {
+    "userId": "89dcd7c0113246fbbb5c27f8c5f80cf7",
+    "ParentId": "9f7ba097b00e0aed7d08b35077047b7d",
+    "IncludeItemTypes": "Audio",
+    "SortBy": "ParentIndexNumber,IndexNumber,SortName"
+  },
+  "request_headers": {
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\", Token=\"<token>\""
+  },
+  "request_body": null,
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "json": {
+    "Items": [
+      {
+        "Name": "Test Tone Long",
+        "ServerId": "67abb6f04b91439e9031de53039a3baf",
+        "Id": "d26085522241ca48affd21a482b7d39e",
+        "HasLyrics": false,
+        "Container": "mp3",
+        "PremiereDate": "2026-01-01T00:00:00.0000000Z",
+        "ChannelId": null,
+        "RunTimeTicks": 60000000,
+        "ProductionYear": 2026,
+        "IndexNumber": 1,
+        "IsFolder": false,
+        "Type": "Audio",
+        "UserData": {
+          "PlaybackPositionTicks": 0,
+          "PlayCount": 0,
+          "IsFavorite": false,
+          "Played": false,
+          "Key": "d2608552-2241-ca48-affd-21a482b7d39e",
+          "ItemId": "d26085522241ca48affd21a482b7d39e"
+        },
+        "Artists": [
+          "Apertono"
+        ],
+        "ArtistItems": [
+          {
+            "Name": "Apertono",
+            "Id": "d02698b82c3d2a13a46ba7ba6ffcc96b"
+          }
+        ],
+        "Album": "Test Tones",
+        "AlbumId": "9f7ba097b00e0aed7d08b35077047b7d",
+        "AlbumPrimaryImageTag": "2b4c23de32cc6f382e5cf5f66851bad8",
+        "AlbumArtist": "Apertono",
+        "AlbumArtists": [
+          {
+            "Name": "Apertono",
+            "Id": "d02698b82c3d2a13a46ba7ba6ffcc96b"
+          }
+        ],
+        "ImageTags": {},
+        "BackdropImageTags": [],
+        "ImageBlurHashes": {
+          "Primary": {
+            "2b4c23de32cc6f382e5cf5f66851bad8": "e35t05p3fQp3fQp3fkfQfkfQfQfQfQfQfQp3fkfQfkfQfQfQfQfQfQ"
+          }
+        },
+        "LocationType": "FileSystem",
+        "MediaType": "Audio"
+      },
+      {
+        "Name": "Test Tone Short",
+        "ServerId": "67abb6f04b91439e9031de53039a3baf",
+        "Id": "5ea53cd43a5456ac6dc2e6c325c4799d",
+        "HasLyrics": false,
+        "Container": "mp3",
+        "PremiereDate": "2026-01-01T00:00:00.0000000Z",
+        "ChannelId": null,
+        "RunTimeTicks": 20000000,
+        "ProductionYear": 2026,
+        "IndexNumber": 2,
+        "IsFolder": false,
+        "Type": "Audio",
+        "UserData": {
+          "PlaybackPositionTicks": 0,
+          "PlayCount": 0,
+          "IsFavorite": false,
+          "Played": false,
+          "Key": "Apertono-Test Tones-0002Test Tone Short",
+          "ItemId": "5ea53cd43a5456ac6dc2e6c325c4799d"
+        },
+        "Artists": [
+          "Apertono"
+        ],
+        "ArtistItems": [
+          {
+            "Name": "Apertono",
+            "Id": "d02698b82c3d2a13a46ba7ba6ffcc96b"
+          }
+        ],
+        "Album": "Test Tones",
+        "AlbumId": "9f7ba097b00e0aed7d08b35077047b7d",
+        "AlbumPrimaryImageTag": "2b4c23de32cc6f382e5cf5f66851bad8",
+        "AlbumArtist": "Apertono",
+        "AlbumArtists": [
+          {
+            "Name": "Apertono",
+            "Id": "d02698b82c3d2a13a46ba7ba6ffcc96b"
+          }
+        ],
+        "ImageTags": {},
+        "BackdropImageTags": [],
+        "ImageBlurHashes": {
+          "Primary": {
+            "2b4c23de32cc6f382e5cf5f66851bad8": "e35t05p3fQp3fQp3fkfQfkfQfQfQfQfQfQp3fkfQfkfQfQfQfQfQfQ"
+          }
+        },
+        "LocationType": "FileSystem",
+        "MediaType": "Audio"
+      }
+    ],
+    "TotalRecordCount": 2,
+    "StartIndex": 0
+  }
+}

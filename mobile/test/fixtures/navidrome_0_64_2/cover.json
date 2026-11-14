@@ -1,0 +1,23 @@
+{
+  "name": "cover",
+  "note": "",
+  "method": "getCoverArt.view",
+  "query": {
+    "u": "tester",
+    "t": "<token>",
+    "s": "<salt>",
+    "v": "1.16.1",
+    "c": "apertono",
+    "f": "json",
+    "id": "5w43XUdYrcWMCGWoPzXK7t",
+    "size": 300
+  },
+  "request_headers": {},
+  "status": 200,
+  "content_type": "image/webp",
+  "bytes": 69228,
+  "sha256": "273a4dbd61dfbb0a12d5d8ffe780eb7a3d4d000bc9771c5411cc70ae4dfa8a1f",
+  "headers": {
+    "cache-control": "no-store"
+  }
+}

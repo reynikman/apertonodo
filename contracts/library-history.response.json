@@ -1,0 +1,15 @@
+{
+  "tracks": [
+    {
+      "id": "33333333-3333-3333-3333-333333333333",
+      "title": "Duality",
+      "artist": "Slipknot",
+      "duration_ms": 252000,
+      "artwork_url": "",
+      "playable": true,
+      "played_at": "2026-09-19T18:04:11.532000+00:00",
+      "artist_photo": null
+    }
+  ],
+  "total": 1
+}

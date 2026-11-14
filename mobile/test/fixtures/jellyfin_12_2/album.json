@@ -1,0 +1,103 @@
+{
+  "name": "album",
+  "note": "",
+  "verb": "GET",
+  "path": "/Items/9f7ba097b00e0aed7d08b35077047b7d",
+  "query": {
+    "userId": "89dcd7c0113246fbbb5c27f8c5f80cf7"
+  },
+  "request_headers": {
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\", Token=\"<token>\""
+  },
+  "request_body": null,
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "json": {
+    "Name": "Test Tones",
+    "ServerId": "67abb6f04b91439e9031de53039a3baf",
+    "Id": "9f7ba097b00e0aed7d08b35077047b7d",
+    "Etag": "c9f9521c2be85addfbe2043b8ab07bf6",
+    "DateCreated": "2026-10-07T00:27:16.443524Z",
+    "DateLastMediaAdded": "0001-01-01T00:00:00.0000000Z",
+    "CanDelete": true,
+    "CanDownload": false,
+    "SortName": "test tones",
+    "PremiereDate": "2026-01-01T00:00:00.0000000Z",
+    "ExternalUrls": [],
+    "Path": "/music/Apertono/Test Tones",
+    "EnableMediaSourceDisplay": true,
+    "ChannelId": null,
+    "Taglines": [],
+    "Genres": [],
+    "CumulativeRunTimeTicks": 80000000,
+    "RunTimeTicks": 80000000,
+    "PlayAccess": "Full",
+    "ProductionYear": 2026,
+    "RemoteTrailers": [],
+    "ProviderIds": {},
+    "IsFolder": true,
+    "ParentId": "d02698b82c3d2a13a46ba7ba6ffcc96b",
+    "Type": "MusicAlbum",
+    "People": [
+      {
+        "Name": "Apertono",
+        "Id": "50c12278293ea0e45b171b2baba5deac",
+        "Role": "",
+        "Type": "AlbumArtist"
+      },
+      {
+        "Name": "Apertono",
+        "Id": "50c12278293ea0e45b171b2baba5deac",
+        "Role": "",
+        "Type": "Artist"
+      }
+    ],
+    "Studios": [],
+    "GenreItems": [],
+    "LocalTrailerCount": 0,
+    "UserData": {
+      "PlaybackPositionTicks": 0,
+      "PlayCount": 0,
+      "IsFavorite": false,
+      "Played": false,
+      "Key": "Apertono-Test Tones",
+      "ItemId": "9f7ba097b00e0aed7d08b35077047b7d"
+    },
+    "RecursiveItemCount": 2,
+    "ChildCount": 2,
+    "SpecialFeatureCount": 0,
+    "DisplayPreferencesId": "f13d7f51d4f1f8b6fcd620855eb88c1e",
+    "Tags": [],
+    "PrimaryImageAspectRatio": 1,
+    "Artists": [
+      "Apertono"
+    ],
+    "ArtistItems": [
+      {
+        "Name": "Apertono",
+        "Id": "d02698b82c3d2a13a46ba7ba6ffcc96b"
+      }
+    ],
+    "AlbumArtist": "Apertono",
+    "AlbumArtists": [
+      {
+        "Name": "Apertono",
+        "Id": "d02698b82c3d2a13a46ba7ba6ffcc96b"
+      }
+    ],
+    "ImageTags": {
+      "Primary": "2b4c23de32cc6f382e5cf5f66851bad8"
+    },
+    "BackdropImageTags": [],
+    "ImageBlurHashes": {
+      "Primary": {
+        "2b4c23de32cc6f382e5cf5f66851bad8": "e35t05p3fQp3fQp3fkfQfkfQfQfQfQfQfQp3fkfQfkfQfQfQfQfQfQ"
+      }
+    },
+    "Chapters": [],
+    "LocationType": "FileSystem",
+    "MediaType": "Unknown",
+    "LockedFields": [],
+    "LockData": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "stream_no_token",
+  "note": "",
+  "verb": "GET",
+  "path": "/Audio/d26085522241ca48affd21a482b7d39e/stream",
+  "query": {
+    "static": "true"
+  },
+  "request_headers": {},
+  "request_body": null,
+  "status": 200,
+  "content_type": "audio/mpeg",
+  "bytes": 97106,
+  "sha256": "e3aeee5a1b27553745f21e592be43f3b420a42858c80fe9917559f462feeb8a1",
+  "headers": {
+    "content-length": "97106",
+    "accept-ranges": "bytes"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "me_header_x_emby_token",
+  "note": "старый заголовок: Jellyfin 12 его не принимает",
+  "verb": "GET",
+  "path": "/Users/Me",
+  "query": {},
+  "request_headers": {
+    "X-Emby-Token": "<token>"
+  },
+  "request_body": null,
+  "status": 401,
+  "content_type": "",
+  "text": ""
+}

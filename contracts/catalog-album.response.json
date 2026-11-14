@@ -1,0 +1,23 @@
+{
+  "album": {
+    "id": "7ff1eff0-a8c8-37dc-807e-eea5a9e173b5",
+    "title": "Группа крови",
+    "artist": "Кино",
+    "year": 1988,
+    "date": "1988",
+    "playable": true,
+    "disc": "Vinyl",
+    "cover": "/v1/covers/7ff1eff0-a8c8-37dc-807e-eea5a9e173b5"
+  },
+  "tracks": [
+    {
+      "id": "8bb7fd50-377c-4d57-8f8f-c83d00790c16",
+      "title": "Группа крови",
+      "artist": "Кино",
+      "duration_ms": 286000,
+      "artwork_url": "",
+      "position": 1,
+      "playable": true
+    }
+  ]
+}

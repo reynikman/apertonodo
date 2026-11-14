@@ -1,0 +1,20 @@
+{
+  "generation": "20260928000000000000_abcd",
+  "genres": [
+    {
+      "slug": "rock",
+      "name_en": "Rock",
+      "name_ru": "Рок"
+    }
+  ],
+  "artists": [
+    {
+      "artist_id": "00000000-0000-0000-0000-000000000001",
+      "name": "Ada Lovelace",
+      "country": "US",
+      "genre": "rock",
+      "image": "/v1/photos/00000000-0000-0000-0000-000000000001"
+    }
+  ],
+  "cursor": "opaque_cursor"
+}

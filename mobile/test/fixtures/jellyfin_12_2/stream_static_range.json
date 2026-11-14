@@ -1,0 +1,23 @@
+{
+  "name": "stream_static_range",
+  "note": "",
+  "verb": "GET",
+  "path": "/Audio/d26085522241ca48affd21a482b7d39e/stream",
+  "query": {
+    "static": "true"
+  },
+  "request_headers": {
+    "Range": "bytes=1000-1999",
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\", Token=\"<token>\""
+  },
+  "request_body": null,
+  "status": 206,
+  "content_type": "audio/mpeg",
+  "bytes": 1000,
+  "sha256": "39ef8e63c8e3978c1596845f73e4b7425fee641d60a3151fc7c9ddf4bc99727d",
+  "headers": {
+    "content-length": "1000",
+    "accept-ranges": "bytes",
+    "content-range": "bytes 1000-1999/97106"
+  }
+}

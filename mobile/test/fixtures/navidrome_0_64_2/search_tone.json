@@ -1,0 +1,169 @@
+{
+  "name": "search_tone",
+  "note": "",
+  "method": "search3.view",
+  "query": {
+    "u": "tester",
+    "t": "<token>",
+    "s": "<salt>",
+    "v": "1.16.1",
+    "c": "apertono",
+    "f": "json",
+    "query": "tone",
+    "songCount": 20,
+    "albumCount": 20,
+    "artistCount": 20
+  },
+  "request_headers": {},
+  "status": 200,
+  "content_type": "application/json",
+  "json": {
+    "subsonic-response": {
+      "status": "ok",
+      "version": "1.16.1",
+      "type": "navidrome",
+      "serverVersion": "0.64.2 (10114574)",
+      "openSubsonic": true,
+      "searchResult3": {
+        "album": [
+          {
+            "id": "5w43XUdYrcWMCGWoPzXK7t",
+            "name": "Test Tones",
+            "artist": "Apertono",
+            "artistId": "65gKQEzZjvqlrA7DDldiAd",
+            "songCount": 2,
+            "duration": 8,
+            "created": "2026-10-07T03:16:19.431043161+03:00",
+            "year": 2026,
+            "userRating": 0,
+            "genres": [],
+            "musicBrainzId": "",
+            "isCompilation": false,
+            "sortName": "test tones",
+            "discTitles": [],
+            "originalReleaseDate": {},
+            "releaseDate": {},
+            "releaseTypes": [],
+            "recordLabels": [],
+            "moods": [],
+            "artists": [
+              {
+                "id": "65gKQEzZjvqlrA7DDldiAd",
+                "name": "Apertono"
+              }
+            ],
+            "displayArtist": "Apertono",
+            "explicitStatus": "",
+            "version": ""
+          }
+        ],
+        "song": [
+          {
+            "id": "2llbCRtEv5j7BosspiA3xR",
+            "parent": "5w43XUdYrcWMCGWoPzXK7t",
+            "isDir": false,
+            "title": "Test Tone Long",
+            "album": "Test Tones",
+            "artist": "Apertono",
+            "track": 1,
+            "year": 2026,
+            "size": 97106,
+            "contentType": "audio/mpeg",
+            "suffix": "mp3",
+            "duration": 6,
+            "bitRate": 129,
+            "path": "Apertono/Test Tones/01 - Test Tone Long.mp3",
+            "created": "2026-10-07T03:16:19.582849+03:00",
+            "albumId": "5w43XUdYrcWMCGWoPzXK7t",
+            "artistId": "65gKQEzZjvqlrA7DDldiAd",
+            "type": "music",
+            "bpm": 0,
+            "comment": "",
+            "sortName": "test tone long",
+            "mediaType": "song",
+            "musicBrainzId": "",
+            "isrc": [],
+            "genres": [],
+            "replayGain": {},
+            "channelCount": 1,
+            "samplingRate": 44100,
+            "bitDepth": 0,
+            "moods": [],
+            "artists": [
+              {
+                "id": "65gKQEzZjvqlrA7DDldiAd",
+                "name": "Apertono"
+              }
+            ],
+            "displayArtist": "Apertono",
+            "albumArtists": [
+              {
+                "id": "65gKQEzZjvqlrA7DDldiAd",
+                "name": "Apertono"
+              }
+            ],
+            "displayAlbumArtist": "Apertono",
+            "contributors": [],
+            "displayComposer": "",
+            "explicitStatus": "",
+            "groupings": [],
+            "works": [],
+            "movements": []
+          },
+          {
+            "id": "2vSjRpN3OC1P6UC1maApBu",
+            "parent": "5w43XUdYrcWMCGWoPzXK7t",
+            "isDir": false,
+            "title": "Test Tone Short",
+            "album": "Test Tones",
+            "artist": "Apertono",
+            "track": 2,
+            "year": 2026,
+            "size": 33159,
+            "contentType": "audio/mpeg",
+            "suffix": "mp3",
+            "duration": 2,
+            "bitRate": 130,
+            "path": "Apertono/Test Tones/02 - Test Tone Short.mp3",
+            "created": "2026-10-07T03:16:19.582369+03:00",
+            "albumId": "5w43XUdYrcWMCGWoPzXK7t",
+            "artistId": "65gKQEzZjvqlrA7DDldiAd",
+            "type": "music",
+            "bpm": 0,
+            "comment": "",
+            "sortName": "test tone short",
+            "mediaType": "song",
+            "musicBrainzId": "",
+            "isrc": [],
+            "genres": [],
+            "replayGain": {},
+            "channelCount": 1,
+            "samplingRate": 44100,
+            "bitDepth": 0,
+            "moods": [],
+            "artists": [
+              {
+                "id": "65gKQEzZjvqlrA7DDldiAd",
+                "name": "Apertono"
+              }
+            ],
+            "displayArtist": "Apertono",
+            "albumArtists": [
+              {
+                "id": "65gKQEzZjvqlrA7DDldiAd",
+                "name": "Apertono"
+              }
+            ],
+            "displayAlbumArtist": "Apertono",
+            "contributors": [],
+            "displayComposer": "",
+            "explicitStatus": "",
+            "groupings": [],
+            "works": [],
+            "movements": []
+          }
+        ]
+      }
+    }
+  }
+}

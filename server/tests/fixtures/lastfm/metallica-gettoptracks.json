@@ -1,0 +1,692 @@
+{
+ "toptracks": {
+  "track": [
+   {
+    "name": "Enter Sandman",
+    "playcount": "18764034",
+    "listeners": "1897949",
+    "mbid": "005bfa2b-e86b-41a3-b08d-49b0372496dd",
+    "url": "https://www.last.fm/music/Metallica/_/Enter+Sandman",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "1"
+    }
+   },
+   {
+    "name": "Nothing Else Matters",
+    "playcount": "17127854",
+    "listeners": "1712262",
+    "mbid": "005487d2-2436-36fe-85bb-13be527338d6",
+    "url": "https://www.last.fm/music/Metallica/_/Nothing+Else+Matters",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "2"
+    }
+   },
+   {
+    "name": "Master of Puppets",
+    "playcount": "17238980",
+    "listeners": "1690500",
+    "mbid": "00499db9-73db-36dd-94cd-2ec98c524ffb",
+    "url": "https://www.last.fm/music/Metallica/_/Master+of+Puppets",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "3"
+    }
+   },
+   {
+    "name": "One",
+    "playcount": "14436473",
+    "listeners": "1431229",
+    "mbid": "006cddf7-52f3-3eb8-9af4-86aa57c8800d",
+    "url": "https://www.last.fm/music/Metallica/_/One",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "4"
+    }
+   },
+   {
+    "name": "The Unforgiven",
+    "playcount": "10852150",
+    "listeners": "1182495",
+    "mbid": "005714e5-09fc-380c-a6b4-caee2a4e3612",
+    "url": "https://www.last.fm/music/Metallica/_/The+Unforgiven",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "5"
+    }
+   },
+   {
+    "name": "Fuel",
+    "playcount": "9404368",
+    "listeners": "1058319",
+    "mbid": "00b0891e-88a8-374e-b804-91cae2d83880",
+    "url": "https://www.last.fm/music/Metallica/_/Fuel",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "6"
+    }
+   },
+   {
+    "name": "Sad but True",
+    "playcount": "9062923",
+    "listeners": "1038442",
+    "mbid": "005a2ba9-e929-421f-b790-aa9763d02a6c",
+    "url": "https://www.last.fm/music/Metallica/_/Sad+but+True",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "7"
+    }
+   },
+   {
+    "name": "Battery",
+    "playcount": "8121273",
+    "listeners": "929526",
+    "mbid": "00352baf-585e-38e6-a39a-32f3dcbee933",
+    "url": "https://www.last.fm/music/Metallica/_/Battery",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "8"
+    }
+   },
+   {
+    "name": "Whiskey in the Jar",
+    "playcount": "8175000",
+    "listeners": "926440",
+    "mbid": "008db0d9-80a3-4b15-9783-9a81f9e09b57",
+    "url": "https://www.last.fm/music/Metallica/_/Whiskey+in+the+Jar",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "9"
+    }
+   },
+   {
+    "name": "Wherever I May Roam",
+    "playcount": "6570248",
+    "listeners": "831490",
+    "mbid": "001e8341-a482-44a7-9845-489abeaef6a8",
+    "url": "https://www.last.fm/music/Metallica/_/Wherever+I+May+Roam",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "10"
+    }
+   },
+   {
+    "name": "Fade to Black",
+    "playcount": "7190258",
+    "listeners": "744744",
+    "mbid": "00293f98-b8e1-4317-950d-c1e835b6199a",
+    "url": "https://www.last.fm/music/Metallica/_/Fade+to+Black",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "11"
+    }
+   },
+   {
+    "name": "For Whom the Bell Tolls",
+    "playcount": "6740114",
+    "listeners": "710309",
+    "mbid": "009815a0-74f5-4295-8d16-1f2b59818e93",
+    "url": "https://www.last.fm/music/Metallica/_/For+Whom+the+Bell+Tolls",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "12"
+    }
+   },
+   {
+    "name": "The Day That Never Comes",
+    "playcount": "6586650",
+    "listeners": "694573",
+    "mbid": "01749abc-6bd4-479f-af39-a76639ee2839",
+    "url": "https://www.last.fm/music/Metallica/_/The+Day+That+Never+Comes",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "13"
+    }
+   },
+   {
+    "name": "The Unforgiven II",
+    "playcount": "5843259",
+    "listeners": "680893",
+    "mbid": "03366bba-0b5b-4f17-8947-86004bea43d2",
+    "url": "https://www.last.fm/music/Metallica/_/The+Unforgiven+II",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "14"
+    }
+   },
+   {
+    "name": "Welcome Home (Sanitarium)",
+    "playcount": "5235302",
+    "listeners": "643171",
+    "mbid": "000e4eea-b035-3ab6-ace7-163e90482203",
+    "url": "https://www.last.fm/music/Metallica/_/Welcome+Home+(Sanitarium)",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "15"
+    }
+   },
+   {
+    "name": "The Memory Remains",
+    "playcount": "4835305",
+    "listeners": "627957",
+    "mbid": "01714af1-0796-346b-92de-de7465c531fd",
+    "url": "https://www.last.fm/music/Metallica/_/The+Memory+Remains",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "16"
+    }
+   },
+   {
+    "name": "The Thing That Should Not Be",
+    "playcount": "4173053",
+    "listeners": "619656",
+    "mbid": "000dbb82-9896-31da-bccc-91b5a2c01d3e",
+    "url": "https://www.last.fm/music/Metallica/_/The+Thing+That+Should+Not+Be",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "17"
+    }
+   },
+   {
+    "name": "Blackened",
+    "playcount": "5071362",
+    "listeners": "613812",
+    "mbid": "0117b0c1-c993-485b-b362-2bb961119fce",
+    "url": "https://www.last.fm/music/Metallica/_/Blackened",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "18"
+    }
+   },
+   {
+    "name": "Of Wolf and Man",
+    "playcount": "4089133",
+    "listeners": "599999",
+    "mbid": "029c1c72-da0d-3904-8e0a-13aefbe20a23",
+    "url": "https://www.last.fm/music/Metallica/_/Of+Wolf+and+Man",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "19"
+    }
+   },
+   {
+    "name": "Enter Sandman - Remastered 2021",
+    "playcount": "4147144",
+    "listeners": "566736",
+    "url": "https://www.last.fm/music/Metallica/_/Enter+Sandman+-+Remastered+2021",
+    "streamable": "0",
+    "artist": {
+     "name": "Metallica",
+     "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+     "url": "https://www.last.fm/music/Metallica"
+    },
+    "image": [
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "small"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "medium"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "large"
+     },
+     {
+      "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "size": "extralarge"
+     }
+    ],
+    "@attr": {
+     "rank": "20"
+    }
+   }
+  ],
+  "@attr": {
+   "artist": "Metallica",
+   "page": "1",
+   "perPage": "20",
+   "totalPages": "24335",
+   "total": "486696"
+  }
+ }
+}

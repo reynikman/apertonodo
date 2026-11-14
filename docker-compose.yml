@@ -1,0 +1,63 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: music
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-music}
+      POSTGRES_DB: music
+    ports:
+      - "127.0.0.1:55432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U music -d music"]
+      interval: 2s
+      timeout: 5s
+      retries: 20
+    volumes:
+      - music-pg:/var/lib/postgresql/data
+      # MusicBrainz copy (tablespace mb). Empty means a named volume. In production,
+      # directory is on HDD via the MB_DATA variable, like IMAGE_DATA.
+      - ${MB_DATA:-mb-data}:/var/lib/postgresql/mb
+    # The tablespace directory must belong to postgres, otherwise CREATE TABLESPACE
+    # in the loader will fail. The script is inlined here rather than in a file: deploy runs
+    # from a CI container, and a relative path to the file would be looked up on the host.
+    # entrypoint resets the image CMD — hence command is specified alongside.
+    entrypoint:
+      - /bin/sh
+      - -c
+      - mkdir -p /var/lib/postgresql/mb && chown postgres:postgres /var/lib/postgresql/mb && chmod 700 /var/lib/postgresql/mb && exec docker-entrypoint.sh "$$@"
+      - --
+    command: ["postgres"]
+
+  # Apertonodo server (scripts/install.sh fills .env and starts this).
+  api:
+    build: .
+    ports:
+      - "${APERTONO_PORT:-8088}:8088"
+    environment:
+      DATABASE_URL: postgresql://music:${POSTGRES_PASSWORD:-music}@postgres:5432/music
+      MUSIC_API_KEY: "${MUSIC_API_KEY:?MUSIC_API_KEY is required: run scripts/install.sh}"
+      MUSICBRAINZ_ENABLED: ${MUSICBRAINZ_ENABLED:-}
+      MUSICBRAINZ_CONTACT: ${MUSICBRAINZ_CONTACT:-}
+      MUSICBRAINZ_PROXY: ${MUSICBRAINZ_PROXY:-}
+      LASTFM_API_KEY: ${LASTFM_API_KEY:-}
+      LASTFM_API_SECRET: ${LASTFM_API_SECRET:-}
+      LASTFM_PROXY: ${LASTFM_PROXY:-}
+      LYRICS_URL: http://lyrics:8080
+      # Extensions are name=url pairs, comma-separated. See contracts/extension-api.md.
+      # Added and removed by scripts/extension.sh, which also lists their compose files in COMPOSE_FILE.
+      EXTENSIONS: ${EXTENSIONS:-}
+      IMAGE_DIR: /data/images
+      VARIANT_DIR: /data/variants
+    volumes:
+      - image-data:/data/images
+      - variant-data:/data/variants
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  music-pg:
+  mb-data:
+  image-data:
+  variant-data:

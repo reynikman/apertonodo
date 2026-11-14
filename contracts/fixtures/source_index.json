@@ -1,0 +1,303 @@
+{
+  "sources": [
+    {
+      "track_id": "11111111-1111-1111-1111-111111111111",
+      "asset_key": "bbb3d8d61ef6b68186f44149e3aba39e4a3bf32e",
+      "file_index": 0,
+      "file_path": "tone-220hz-90s.mp3",
+      "size": 5000000,
+      "codec_hint": "mp3",
+      "duration_hint": 388000,
+      "tags": {
+        "artist": "Metallica",
+        "title": "Nothing Else Matters"
+      }
+    },
+    {
+      "track_id": "33333333-3333-3333-3333-333333333333",
+      "asset_key": "066d9d64fab745950350acfc16a46019f5a7c623",
+      "file_index": 0,
+      "file_path": "tone-440hz-4s.mp3",
+      "size": 5001000,
+      "codec_hint": "mp3",
+      "duration_hint": 252000,
+      "tags": {
+        "artist": "Slipknot",
+        "title": "Duality"
+      }
+    },
+    {
+      "track_id": "44444444-4444-4444-4444-444444444444",
+      "asset_key": "7239251f9a5960a967e4c588978a093eb391cde0",
+      "file_index": 0,
+      "file_path": "Nirvana - Smells Like Teen Spirit.mp3",
+      "size": 5002000,
+      "codec_hint": "mp3",
+      "duration_hint": 301000,
+      "tags": {
+        "artist": "Nirvana",
+        "title": "Smells Like Teen Spirit"
+      }
+    },
+    {
+      "track_id": "55555555-5555-5555-5555-555555555555",
+      "asset_key": "478f55f444b503426d08a1c51768582d392e6992",
+      "file_index": 0,
+      "file_path": "Queen - Bohemian Rhapsody.mp3",
+      "size": 5003000,
+      "codec_hint": "mp3",
+      "duration_hint": 355000,
+      "tags": {
+        "artist": "Queen",
+        "title": "Bohemian Rhapsody"
+      }
+    },
+    {
+      "track_id": "66666666-6666-6666-6666-666666666666",
+      "asset_key": "b45b54414e9022cc000f74e99bc483909d08c358",
+      "file_index": 0,
+      "file_path": "The Beatles - Yesterday.mp3",
+      "size": 5004000,
+      "codec_hint": "mp3",
+      "duration_hint": 125000,
+      "tags": {
+        "artist": "The Beatles",
+        "title": "Yesterday"
+      }
+    },
+    {
+      "track_id": "77777777-7777-7777-7777-777777777777",
+      "asset_key": "28c86055c6608ebed89f6799e6c62dfd2af7678a",
+      "file_index": 0,
+      "file_path": "Radiohead - Creep.mp3",
+      "size": 5005000,
+      "codec_hint": "mp3",
+      "duration_hint": 238000,
+      "tags": {
+        "artist": "Radiohead",
+        "title": "Creep"
+      }
+    },
+    {
+      "track_id": "88888888-8888-8888-8888-888888888888",
+      "asset_key": "16f2a1758d8e2ef9029aa7b51d011a4774bab7f6",
+      "file_index": 0,
+      "file_path": "AC/DC - Back in Black.mp3",
+      "size": 5006000,
+      "codec_hint": "mp3",
+      "duration_hint": 255000,
+      "tags": {
+        "artist": "AC/DC",
+        "title": "Back in Black"
+      }
+    },
+    {
+      "track_id": "99999999-9999-9999-9999-999999999999",
+      "asset_key": "e423d14a7d1e97f1816bf62079a702ad76cb3689",
+      "file_index": 0,
+      "file_path": "Pink Floyd - Wish You Were Here.mp3",
+      "size": 5007000,
+      "codec_hint": "mp3",
+      "duration_hint": 334000,
+      "tags": {
+        "artist": "Pink Floyd",
+        "title": "Wish You Were Here"
+      }
+    },
+    {
+      "track_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+      "asset_key": "5cfd4e481992346725cae31225b40d2b6de777b7",
+      "file_index": 0,
+      "file_path": "Кино - Группа крови.mp3",
+      "size": 5008000,
+      "codec_hint": "mp3",
+      "duration_hint": 240000,
+      "tags": {
+        "artist": "Кино",
+        "title": "Группа крови"
+      }
+    },
+    {
+      "track_id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "asset_key": "68f96cefa681037d633c9840d3aee5da93b1a2b9",
+      "file_index": 0,
+      "file_path": "ДДТ - Что такое осень.mp3",
+      "size": 5009000,
+      "codec_hint": "mp3",
+      "duration_hint": 286000,
+      "tags": {
+        "artist": "ДДТ",
+        "title": "Что такое осень"
+      }
+    },
+    {
+      "track_id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+      "asset_key": "d5cb2ae74a7586e473896c54c0a50088046a22ba",
+      "file_index": 0,
+      "file_path": "Король и Шут - Лесник.mp3",
+      "size": 5010000,
+      "codec_hint": "mp3",
+      "duration_hint": 198000,
+      "tags": {
+        "artist": "Король и Шут",
+        "title": "Лесник"
+      }
+    },
+    {
+      "track_id": "dddddddd-dddd-dddd-dddd-dddddddddddd",
+      "asset_key": "5391d44f20c0b998a71f8aa9cb678d68ba10121d",
+      "file_index": 0,
+      "file_path": "Земфира - Хочешь.mp3",
+      "size": 5011000,
+      "codec_hint": "mp3",
+      "duration_hint": 232000,
+      "tags": {
+        "artist": "Земфира",
+        "title": "Хочешь"
+      }
+    },
+    {
+      "track_id": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+      "asset_key": "cc00a6745156a0cd4733117d0edc3021bf77ddff",
+      "file_index": 0,
+      "file_path": "Mozart - Eine kleine Nachtmusik.mp3",
+      "size": 5012000,
+      "codec_hint": "mp3",
+      "duration_hint": 355000,
+      "tags": {
+        "artist": "Mozart",
+        "title": "Eine kleine Nachtmusik"
+      }
+    },
+    {
+      "track_id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+      "asset_key": "06ce4fc639803a2e3563922518183d8e94088cb9",
+      "file_index": 0,
+      "file_path": "Bach - Air on the G String.mp3",
+      "size": 5013000,
+      "codec_hint": "mp3",
+      "duration_hint": 305000,
+      "tags": {
+        "artist": "Bach",
+        "title": "Air on the G String"
+      }
+    },
+    {
+      "track_id": "10101010-1010-1010-1010-101010101010",
+      "asset_key": "b440f36f721abf5b84d796c3cac3f2719d63e52e",
+      "file_index": 0,
+      "file_path": "Beethoven - Fur Elise.mp3",
+      "size": 5014000,
+      "codec_hint": "mp3",
+      "duration_hint": 176000,
+      "tags": {
+        "artist": "Beethoven",
+        "title": "Fur Elise"
+      }
+    },
+    {
+      "track_id": "12121212-1212-1212-1212-121212121212",
+      "asset_key": "cfa5f86bc00d133ad06f2e66b32cc09e7943b480",
+      "file_index": 0,
+      "file_path": "Chopin - Nocturne Op 9 No 2.mp3",
+      "size": 5015000,
+      "codec_hint": "mp3",
+      "duration_hint": 270000,
+      "tags": {
+        "artist": "Chopin",
+        "title": "Nocturne Op 9 No 2"
+      }
+    },
+    {
+      "track_id": "13131313-1313-1313-1313-131313131313",
+      "asset_key": "7f432aabca6953b1cf71c7871fd23f8d1213b08c",
+      "file_index": 0,
+      "file_path": "Holst - Jupiter.mp3",
+      "size": 5016000,
+      "codec_hint": "mp3",
+      "duration_hint": 479000,
+      "tags": {
+        "artist": "Holst",
+        "title": "Jupiter"
+      }
+    },
+    {
+      "track_id": "14141414-1414-1414-1414-141414141414",
+      "asset_key": "30ea28460d1e8cf1b1070e5fdf409871c3a63ded",
+      "file_index": 0,
+      "file_path": "Nirvana - Come As You Are.mp3",
+      "size": 5017000,
+      "codec_hint": "mp3",
+      "duration_hint": 219000,
+      "tags": {
+        "artist": "Nirvana",
+        "title": "Come As You Are"
+      }
+    },
+    {
+      "track_id": "15151515-1515-1515-1515-151515151515",
+      "asset_key": "6757c86691cd84abd8bee9b1ace1721085bea4b1",
+      "file_index": 0,
+      "file_path": "Queen - Don't Stop Me Now.mp3",
+      "size": 5018000,
+      "codec_hint": "mp3",
+      "duration_hint": 210000,
+      "tags": {
+        "artist": "Queen",
+        "title": "Don't Stop Me Now"
+      }
+    },
+    {
+      "track_id": null,
+      "asset_key": "cccccccccccccccccccccccccccccccccccccccc",
+      "file_index": 0,
+      "file_path": "Slipknot - Duality (Live at Download).mp3",
+      "size": 7200000,
+      "codec_hint": "mp3",
+      "duration_hint": 274000,
+      "tags": {
+        "artist": "Slipknot",
+        "title": "Duality (Live)"
+      }
+    },
+    {
+      "track_id": null,
+      "asset_key": "dddddddddddddddddddddddddddddddddddddddd",
+      "file_index": 3,
+      "file_path": "Various - Duality karaoke.mp3",
+      "size": 4100000,
+      "codec_hint": "mp3",
+      "duration_hint": 252000,
+      "tags": {
+        "artist": "Various",
+        "title": "Duality karaoke"
+      }
+    },
+    {
+      "track_id": "f1070000-0000-4000-8000-000000000090",
+      "asset_key": "f107000000000000000000000000000000000090",
+      "file_index": 0,
+      "file_path": "tone-220hz-90s.mp3",
+      "size": 540543,
+      "codec_hint": "mp3",
+      "duration_hint": 90000,
+      "tags": {
+        "artist": "Flowtune",
+        "title": "Test Tone Long"
+      }
+    },
+    {
+      "track_id": "f1070000-0000-4000-8000-000000000004",
+      "asset_key": "f107000000000000000000000000000000000004",
+      "file_index": 0,
+      "file_path": "tone-440hz-4s.mp3",
+      "size": 65244,
+      "codec_hint": "mp3",
+      "duration_hint": 4000,
+      "tags": {
+        "artist": "Flowtune",
+        "title": "Test Tone Short"
+      }
+    }
+  ]
+}

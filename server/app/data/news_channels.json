@@ -1,0 +1,14 @@
+[
+  {"name": "Pitchfork", "feed_url": "https://pitchfork.com/feed/feed-news/rss", "lang": "en"},
+  {"name": "Stereogum", "feed_url": "https://www.stereogum.com/feed/", "lang": "en"},
+  {"name": "NME", "feed_url": "https://www.nme.com/news/music/feed", "lang": "en"},
+  {"name": "Rolling Stone", "feed_url": "https://www.rollingstone.com/music/music-news/feed/", "lang": "en"},
+  {"name": "Billboard", "feed_url": "https://www.billboard.com/c/music/music-news/feed/", "lang": "en"},
+  {"name": "Consequence", "feed_url": "https://consequence.net/feed/", "lang": "en"},
+  {"name": "The Quietus", "feed_url": "https://thequietus.com/feed/", "lang": "en"},
+  {"name": "Metal Injection", "feed_url": "https://metalinjection.net/feed", "lang": "en"},
+  {"name": "BrooklynVegan", "feed_url": "https://www.brooklynvegan.com/feed/", "lang": "en"},
+  {"name": "Louder Sound", "feed_url": "https://www.loudersound.com/feeds/all", "lang": "en"},
+  {"name": "DIY Magazine", "feed_url": "https://diymag.com/feed", "lang": "en"},
+  {"name": "Clash Magazine", "feed_url": "https://www.clashmusic.com/feed/", "lang": "en"}
+]

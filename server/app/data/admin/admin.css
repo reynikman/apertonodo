@@ -1,0 +1,104 @@
+/* Colors, radii and rhythm are the DESIGN.md tokens; nothing here is invented. */
+:root {
+  --background: #07090C;
+  --surface: #0E1217;
+  --surfaceRaised: #151920;
+  --border: #FFFFFF12;
+  --borderStrong: #FFFFFF1F;
+  --divider: #FFFFFF0F;
+  --accent: #E5A93B;
+  --accentHighlight: #F5B842;
+  --accentSoft: #E5A93B24;
+  --textPrimary: #FFFFFF;
+  --textSecondary: #8C93A4;
+  --textMuted: #5D6574;
+  --error: #FFB4AB;
+  --inkOnLight: #000000DD;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--textPrimary);
+  font: 400 15px/19px Onest, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+main { max-width: 880px; margin: 0 auto; padding: 24px 16px; }
+
+h1 { font-size: 26px; line-height: 32px; font-weight: 700; letter-spacing: -0.52px; margin: 0 0 16px; }
+h2 { font-size: 18px; line-height: 22px; font-weight: 700; letter-spacing: -0.18px; margin: 0 0 12px; }
+h3 { font-size: 15px; line-height: 19px; font-weight: 600; margin: 0; flex-basis: 100%; }
+
+.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.top h1 { margin: 0; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  padding: 16px;
+  margin-top: 24px;
+}
+.card.narrow { max-width: 380px; margin: 24px auto 0; }
+
+label { display: flex; flex-direction: column; gap: 4px; color: var(--textSecondary); font-size: 12.5px; line-height: 16px; }
+label.check { flex-direction: row; align-items: center; gap: 8px; min-height: 48px; }
+
+input:not([type=checkbox]) {
+  min-height: 48px;
+  padding: 0 16px;
+  background: var(--surfaceRaised);
+  color: var(--textPrimary);
+  border: 1px solid var(--borderStrong);
+  border-radius: 16px;
+  font: inherit;
+}
+input[type=checkbox] { width: 20px; height: 20px; accent-color: var(--accent); }
+input:focus-visible, button:focus-visible { outline: 2px solid var(--accentHighlight); outline-offset: 2px; }
+
+button {
+  min-height: 48px;
+  padding: 0 16px;
+  background: var(--surfaceRaised);
+  color: var(--textPrimary);
+  border: 1px solid var(--borderStrong);
+  border-radius: 26px;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 600;
+  cursor: pointer;
+}
+button.primary { background: var(--accent); color: var(--inkOnLight); border-color: var(--accent); }
+button.danger { color: var(--error); }
+button:disabled { color: var(--textMuted); cursor: default; }
+
+#login-form { display: flex; flex-direction: column; gap: 12px; }
+.row-form { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--divider); }
+.row-form label { flex: 1 1 180px; }
+.row-form label.check { flex: 0 0 auto; }
+
+.note { min-height: 19px; margin: 12px 0 0; color: var(--error); }
+.note.ok { color: var(--accent); }
+
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 0; }
+.facts div { background: var(--surfaceRaised); border: 1px solid var(--border); border-radius: 16px; padding: 12px; }
+.facts dt { color: var(--textSecondary); font-size: 12.5px; line-height: 16px; }
+.facts dd { margin: 4px 0 0; font: 500 15px/19px "JetBrains Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+
+.person { border-top: 1px solid var(--divider); padding: 12px 0; }
+.person:first-child { border-top: 0; padding-top: 0; }
+.person-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.person-name { font-weight: 600; margin-right: auto; }
+.person.off .person-name { color: var(--textMuted); }
+.badge { background: var(--accentSoft); color: var(--accent); border-radius: 10px; padding: 4px 8px; font-size: 12px; line-height: 15px; font-weight: 500; }
+.meta { color: var(--textSecondary); font-size: 12.5px; line-height: 16px; }
+.invite { margin-top: 16px; padding: 16px; border: 1px solid var(--accent); border-radius: 16px; }
+.invite p { margin: 0 0 8px; }
+.invite-code { font-family: "JetBrains Mono", monospace; font-size: 28px; letter-spacing: 2px; color: var(--accent); user-select: all; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.devices { margin: 8px 0 0; padding: 0; list-style: none; }
+.devices li { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 4px 0; }
+.devices .device-name { margin-right: auto; }

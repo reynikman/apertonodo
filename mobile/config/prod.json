@@ -1,0 +1,6 @@
+{
+  "MUSIC_ENV": "prod",
+  "MUSIC_API_BASE_URL": "",
+  "MUSIC_HEALTH_PATH": "/v1/health",
+  "UPDATE_REPO": "reynikman/apertonodo"
+}

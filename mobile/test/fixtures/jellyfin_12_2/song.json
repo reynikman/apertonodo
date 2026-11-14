@@ -1,0 +1,184 @@
+{
+  "name": "song",
+  "note": "",
+  "verb": "GET",
+  "path": "/Items/d26085522241ca48affd21a482b7d39e",
+  "query": {
+    "userId": "89dcd7c0113246fbbb5c27f8c5f80cf7"
+  },
+  "request_headers": {
+    "Authorization": "MediaBrowser Client=\"Apertono\", Device=\"Android\", DeviceId=\"record-1\", Version=\"0.1\", Token=\"<token>\""
+  },
+  "request_body": null,
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "json": {
+    "Name": "Test Tone Long",
+    "ServerId": "67abb6f04b91439e9031de53039a3baf",
+    "Id": "d26085522241ca48affd21a482b7d39e",
+    "Etag": "730c5854967ea3fdb27373604225fc7e",
+    "DateCreated": "2026-10-07T00:26:22.4506115Z",
+    "CanDelete": true,
+    "CanDownload": true,
+    "HasLyrics": false,
+    "Container": "mp3",
+    "SortName": "0001 - Test Tone Long",
+    "PremiereDate": "2026-01-01T00:00:00.0000000Z",
+    "ExternalUrls": [],
+    "MediaSources": [
+      {
+        "Protocol": "File",
+        "Id": "d26085522241ca48affd21a482b7d39e",
+        "Path": "/music/Apertono/Test Tones/01 - Test Tone Long.mp3",
+        "Type": "Default",
+        "Container": "mp3",
+        "Size": 97106,
+        "Name": "01 - Test Tone Long",
+        "IsRemote": false,
+        "ETag": "ea0e05a6ca9b6265f4cb9d1552c8f9e1",
+        "RunTimeTicks": 60000000,
+        "ReadAtNativeFramerate": false,
+        "IgnoreDts": false,
+        "IgnoreIndex": false,
+        "GenPtsInput": false,
+        "SupportsTranscoding": true,
+        "SupportsDirectStream": true,
+        "SupportsDirectPlay": true,
+        "IsInfiniteStream": false,
+        "UseMostCompatibleTranscodingProfile": false,
+        "RequiresOpening": false,
+        "RequiresClosing": false,
+        "RequiresLooping": false,
+        "SupportsProbing": true,
+        "MediaStreams": [
+          {
+            "Codec": "mp3",
+            "TimeBase": "1/14112000",
+            "VideoRange": "Unknown",
+            "VideoRangeType": "Unknown",
+            "AudioSpatialFormat": "None",
+            "LocalizedDefault": "Default",
+            "LocalizedExternal": "External",
+            "LocalizedOriginal": "Original",
+            "DisplayTitle": "MP3 - Mono",
+            "IsInterlaced": false,
+            "ChannelLayout": "mono",
+            "BitRate": 128000,
+            "Channels": 1,
+            "SampleRate": 44100,
+            "IsDefault": false,
+            "IsForced": false,
+            "IsHearingImpaired": false,
+            "IsOriginal": false,
+            "Type": "Audio",
+            "Index": 0,
+            "IsExternal": false,
+            "IsTextSubtitleStream": false,
+            "SupportsExternalStream": false
+          }
+        ],
+        "MediaAttachments": [],
+        "Formats": [],
+        "Bitrate": 129474,
+        "RequiredHttpHeaders": {},
+        "TranscodingSubProtocol": "http",
+        "DefaultAudioStreamIndex": 0,
+        "HasSegments": false
+      }
+    ],
+    "Path": "/music/Apertono/Test Tones/01 - Test Tone Long.mp3",
+    "EnableMediaSourceDisplay": true,
+    "ChannelId": null,
+    "Taglines": [],
+    "Genres": [],
+    "RunTimeTicks": 60000000,
+    "PlayAccess": "Full",
+    "ProductionYear": 2026,
+    "IndexNumber": 1,
+    "RemoteTrailers": [],
+    "ProviderIds": {},
+    "IsFolder": false,
+    "ParentId": "9f7ba097b00e0aed7d08b35077047b7d",
+    "Type": "Audio",
+    "People": [
+      {
+        "Name": "Apertono",
+        "Id": "50c12278293ea0e45b171b2baba5deac",
+        "Role": "",
+        "Type": "Artist"
+      }
+    ],
+    "Studios": [],
+    "GenreItems": [],
+    "LocalTrailerCount": 0,
+    "UserData": {
+      "PlaybackPositionTicks": 0,
+      "PlayCount": 0,
+      "IsFavorite": false,
+      "Played": false,
+      "Key": "Apertono-Test Tones-0001Test Tone Long",
+      "ItemId": "d26085522241ca48affd21a482b7d39e"
+    },
+    "SpecialFeatureCount": 0,
+    "DisplayPreferencesId": "61bba315f137702baa296a1c417faada",
+    "Tags": [],
+    "Artists": [
+      "Apertono"
+    ],
+    "ArtistItems": [
+      {
+        "Name": "Apertono",
+        "Id": "d02698b82c3d2a13a46ba7ba6ffcc96b"
+      }
+    ],
+    "Album": "Test Tones",
+    "AlbumId": "9f7ba097b00e0aed7d08b35077047b7d",
+    "AlbumPrimaryImageTag": "2b4c23de32cc6f382e5cf5f66851bad8",
+    "AlbumArtist": "Apertono",
+    "AlbumArtists": [
+      {
+        "Name": "Apertono",
+        "Id": "d02698b82c3d2a13a46ba7ba6ffcc96b"
+      }
+    ],
+    "MediaStreams": [
+      {
+        "Codec": "mp3",
+        "TimeBase": "1/14112000",
+        "VideoRange": "Unknown",
+        "VideoRangeType": "Unknown",
+        "AudioSpatialFormat": "None",
+        "LocalizedDefault": "Default",
+        "LocalizedExternal": "External",
+        "LocalizedOriginal": "Original",
+        "DisplayTitle": "MP3 - Mono",
+        "IsInterlaced": false,
+        "ChannelLayout": "mono",
+        "BitRate": 128000,
+        "Channels": 1,
+        "SampleRate": 44100,
+        "IsDefault": false,
+        "IsForced": false,
+        "IsHearingImpaired": false,
+        "IsOriginal": false,
+        "Type": "Audio",
+        "Index": 0,
+        "IsExternal": false,
+        "IsTextSubtitleStream": false,
+        "SupportsExternalStream": false
+      }
+    ],
+    "ImageTags": {},
+    "BackdropImageTags": [],
+    "ImageBlurHashes": {
+      "Primary": {
+        "2b4c23de32cc6f382e5cf5f66851bad8": "e35t05p3fQp3fQp3fkfQfkfQfQfQfQfQfQp3fkfQfkfQfQfQfQfQfQ"
+      }
+    },
+    "Chapters": [],
+    "LocationType": "FileSystem",
+    "MediaType": "Audio",
+    "LockedFields": [],
+    "LockData": false
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "MUSIC_ENV": "dev",
+  "MUSIC_API_BASE_URL": "http://127.0.0.1:8088",
+  "MUSIC_HEALTH_PATH": "/v1/health"
+}
