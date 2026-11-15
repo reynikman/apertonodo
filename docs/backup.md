@@ -16,21 +16,14 @@ Verify restoration only into a separate empty database, never into the productio
 
 The check restores tables into the specified database. It will refuse to run against the `music` database or any database that already contains user tables.
 
-This card did not create a backup of the production database and does not prove that production data is already saved. Backups are now scheduled and run nightly — see "Nightly dump (Р-A25)" below. Music files and the MusicBrainz catalog are not protected by this archive.
+Music files and the MusicBrainz catalog are not protected by this archive.
 
-## Nightly dump (Р-A25)
+## Scheduled dumps
 
-The large Apertono database (47 GB) is excluded from PBS backups: it is fully restored from the MusicBrainz replica. The only data that cannot be reconstructed is what humans created — and that is what the nightly dump backs up.
+Back up on a schedule, not by hand. The only data that cannot be reconstructed is what people created: accounts, playlists, saved songs and song links. The MusicBrainz catalog is rebuilt from its own source, so it does not need to be in the archive.
 
-At night, `scripts/backup.sh` runs directly — the same script described above. The backup host extracts it from the server image and executes it inside the Postgres container, retrieving the resulting archive from there:
+Run `scripts/backup.sh` (the same script described above) on a timer, for example from cron or a systemd timer. If the database runs in a container, run the script inside the database container, with `--database-url` pointing at that database, and copy the archive out afterwards. Keep the archives in a private directory with restricted permissions and prune old ones yourself; the script never removes them.
 
-    docker exec flowtune-api-1 cat /app/scripts/backup.sh > backup.sh
-    docker exec -i -e APERTONODO_PG_BIN=/usr/local/bin flowtune-postgres-1 sh -s -- \
-        --database-url postgresql://music@/music --directory /tmp/apertonodo-backup < backup.sh
-    docker cp flowtune-postgres-1:/tmp/apertonodo-backup/… .
+The dump includes only the `public` schema. Foreign schemas created while the catalog is rebuilt can be very large and are not needed to restore your data. The tables `song_identity` and `song_alias` are included: they keep earlier song links valid across catalog rebuilds, and they can be large.
 
-A copy of the script on the host is unnecessary: it would drift out of sync with code. The dump includes only the `public` schema — during the weekly catalog rebuild, adjacent foreign schemas take up dozens of gigabytes.
-
-Dumps are placed into `/srv/backups/apertono/` on the backup host, retaining the last 7. Each is large, which is expected: along with personal data, `song_identity` and `song_alias` are copied (on production they contain 30M and 72M rows), keeping earlier song links valid across catalog rebuilds.
-
-Verify restoration using the same `scripts/restore_check.sh` against a separate empty database, never into production.
+Verify restoration with `scripts/restore_check.sh` against a separate empty database, never into the production database.

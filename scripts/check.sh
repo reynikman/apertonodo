@@ -62,6 +62,7 @@ need() {
 # App paths — the `.app-changes` list from .gitlab-ci.yml turned into a
 # regular expression: the same filter CI uses to decide whether to build the APK.
 app_pattern() {
+  [ -f .gitlab-ci.yml ] || return 0
   sed -n '/^\.app-changes: &app-changes/,/^$/s/^  - //p' .gitlab-ci.yml |
     sed -e 's/\./\\./g' -e 's/\*\*\/\*/@ANY@/g' -e 's/\*/[^\/]*/g' -e 's/@ANY@/.*/g' \
         -e 's/^/^/' -e 's/$/$/' | paste -sd'|' -
@@ -89,12 +90,18 @@ step "server tests" \
   bash scripts/backend_ci.sh
 EXT_NAMES=""
 for dir in extensions/*/; do
+  [ -d "$dir" ] || continue
   name="$(basename "$dir")"
   EXT_NAMES="$EXT_NAMES $name"
 done
-step "extension tests" \
-  "Extension logic broken. See last lines of log." \
-  bash -c 'for name in "$@"; do bash scripts/extension_tests.sh "$name" || exit 1; done' _ $EXT_NAMES
+if [ -n "$EXT_NAMES" ]; then
+  step "extension tests" \
+    "Extension logic broken. See last lines of log." \
+    bash -c 'for name in "$@"; do bash scripts/extension_tests.sh "$name" || exit 1; done' _ $EXT_NAMES
+else
+  printf '  '; pad "extension tests" 34; printf '%sskipped%s\n' "$DIM" "$OFF"
+  printf '    %sskipped: extensions/ not in this copy (they live in the separate extensions repository)%s\n' "$DIM" "$OFF"
+fi
 need "core and extensions chain" scripts/chain_check.sh && step "core and extensions chain" \
   "Services do not fit together: core and its source extensions. See log; three known breakages: bash scripts/chain_check.sh --break all." \
   bash scripts/chain_check.sh
@@ -188,9 +195,9 @@ if [ ${#FAILED[@]} -eq 0 ]; then
   echo
   echo "${DIM}What this does not verify: audio on physical phone and lock on production endpoint.${OFF}"
   [ -n "$APP_SKIPPED" ] && echo "${DIM}App was not checked: it did not change from origin/main.${OFF}"
-  echo "${DIM}Connect phone and run: bash scripts/check_device.sh${OFF}"
-  echo "${DIM}Lock on production endpoint: bash scripts/public_guard_check.sh${OFF}"
-  echo "${DIM}The same checks run in GitLab on every push: bash scripts/ci_status.sh${OFF}"
+  [ -e scripts/check_device.sh ] && echo "${DIM}Connect phone and run: bash scripts/check_device.sh${OFF}"
+  [ -e scripts/public_guard_check.sh ] && echo "${DIM}Lock on production endpoint: bash scripts/public_guard_check.sh${OFF}"
+  [ -e scripts/ci_status.sh ] && echo "${DIM}The same checks run in GitLab on every push: bash scripts/ci_status.sh${OFF}"
   echo
   exit 0
 fi

@@ -26,10 +26,9 @@ Only the application is rolled back (previous image), never the database: neithe
 ## How to Verify
 
 ```bash
-bash scripts/check.sh                       # including server/tests/test_migrations.py
-python3 scripts/acceptance/cases/FT-010.py verify   # exit 0; VERIFY_OK FT-010
+bash scripts/check.sh   # including server/tests/test_migrations.py
 ```
 
-`test_migrations.py` runs against a disposable database next to the test database (`CREATE DATABASE ft010_…`, `DROP` after the test). The FT-010 oracle spins up its own PostgreSQL in a temporary directory on a unix socket.
+`test_migrations.py` runs against a disposable database next to the test database (`CREATE DATABASE ft010_…`, `DROP` after the test).
 
 Not covered: migrations that cannot run inside a transaction (`CREATE INDEX CONCURRENTLY`) — such a file will fail; currently none exist.

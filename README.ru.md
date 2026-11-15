@@ -64,8 +64,7 @@ cd apertonodo
 Проверить, что сервер жив: `curl http://localhost:8088/v1/health`.
 
 По умолчанию сервер ищет в онлайн-MusicBrainz и один раз при старте пишет в лог строку
-`catalog: no local MusicBrainz copy, using online MusicBrainz`. Как поставить свою копию каталога,
-описано позже.
+`catalog: no local MusicBrainz copy, using online MusicBrainz`.
 
 Если приложение пишет «Каталог сейчас не отвечает» (в логе сервера `catalog search failed: TimeoutError`), машина не достаёт до `musicbrainz.org` (в некоторых странах он
 закрыт). Впишите в `.env` `MUSICBRAINZ_PROXY` — HTTP(S)-прокси, через который он открывается, и выполните

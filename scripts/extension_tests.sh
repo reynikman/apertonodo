@@ -26,7 +26,12 @@ fi
 
 VENV="$EXT_DIR/.venv"
 if [ ! -d "$VENV" ]; then
-  python3 -m venv "$VENV"
+  # Same interpreter as the server (backend_ci.sh): some pinned wheels exist for 3.12, not for every newer python3.
+  if command -v python3.12 >/dev/null 2>&1; then
+    python3.12 -m venv "$VENV"
+  else
+    python3 -m venv "$VENV"
+  fi
 fi
 
 cd "$EXT_DIR"

@@ -24,6 +24,9 @@ DOCS = [
     "docs/backup.md",
     "docs/rollback.md",
 ]
+# FT-910: lines of fenced blocks changed on purpose after the base commit.
+DROPPED = {"python3 scripts/acceptance/cases/FT-010.py verify   # exit 0; VERIFY_OK FT-010"}
+RENAMED = ("flowtune_", "apertonodo_")
 CYRILLIC = re.compile("[а-яА-ЯёЁ]")
 FENCE = "`" * 3
 # Quoted interface strings and names of the owner's decisions may stay.
@@ -68,7 +71,11 @@ def test_commands_in_fenced_blocks_are_untouched(doc: str) -> None:
     )
     if shown.returncode != 0:
         pytest.skip("base commit is not in this clone")
-    before, after = fenced(shown.stdout), fenced((ROOT / doc).read_text())
+    before = [
+        [x.replace(*RENAMED) for x in blk if x not in DROPPED]
+        for blk in fenced(shown.stdout)
+    ]
+    after = fenced((ROOT / doc).read_text())
     assert len(before) == len(after), f"{doc}: number of fenced blocks changed"
     for old, new in zip(before, after, strict=True):
         assert len(old) == len(new), f"{doc}: a fenced block changed its length"

@@ -48,5 +48,4 @@ server/tests/fixtures/migrations_before_ft905/*  # frozen pre-FT-905 migrations,
 server/tests/test_migrations.py  # server test: builds the old schema and checks a fresh one has no such names
 server/tests/test_translation_guard.py  # server test: asserts the words are absent, or builds the old schema
 server/tests/test_wire_p8_core.py  # server test: asserts the words are absent, or builds the old schema
-mobile/tool/negative_control.dart  # test tool: plants a forbidden UI word to prove the UI test catches it
 server/tests/test_extension_script.py  # server test: names the extensions it adds, including source ones

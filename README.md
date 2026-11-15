@@ -64,8 +64,7 @@ If `.env` already exists, the script keeps it and uses its secrets: if the first
 Check that the server is alive: `curl http://localhost:8088/v1/health`.
 
 By default the server searches the online MusicBrainz and writes one line at start:
-`catalog: no local MusicBrainz copy, using online MusicBrainz`. Installing your own copy
-of the catalog is described later.
+`catalog: no local MusicBrainz copy, using online MusicBrainz`.
 
 If the app says "The catalog is not responding" (the server log: `catalog search failed: TimeoutError`), the machine cannot reach `musicbrainz.org` (it is blocked in some
 countries). Set `MUSICBRAINZ_PROXY` in `.env` to an HTTP(S) proxy that can, then `docker compose up -d api`.
